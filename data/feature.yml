@@ -1,0 +1,34 @@
+enable  : true
+title   : The Chi Square Advantage
+subtitle: >
+  
+item    :
+  - icon  : ion-ios-flask-outline
+    title : Scientific Approach
+    description : >
+      All our work is based on peer-reviewed research and/or controlled experimental designs. 
+
+  - icon  : ion-ios-book-outline
+    title : Well Documented
+    description : >
+      From birds-eye to the nitty-gritty. Everything we do is thouroughly explained, reproducible and ready for peer-review.
+
+  - icon  : ion-ios-americanfootball-outline
+    title : Continuous Updates
+    description : >
+            Continuous backtesting is an important and indispensible part of our process. Updates are made on an ongoing basis to ensure maximum performance. 
+
+  - icon  : ion-ios-keypad-outline
+    title : Solid Support
+    description : >
+      Unsure about how to interpret a visualization, result, recommendation or prediction? You friendly neighborhood data-scientist is on call.  
+
+  - icon  : ion-ios-barcode-outline
+    title : Transparency
+    description : >
+      There is no secret sauce. Algorithms and approaches chosen are shared for your review.
+  
+  - icon  : ion-ios-lightbulb-outline
+    title : Deep Integration
+    description : >
+      Learning Analytics analyses data from a number of systems, and informs a multitude of processes. Our products are compatible with industry standards.

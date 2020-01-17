@@ -1,0 +1,22 @@
+---
+caption: Is there a there there?
+category:
+- product
+date: "2018-12-30"
+description: This is meta description
+image: images/product/meta_predictive.png
+title: Meta Predictive Risk Assessment
+#type: product
+---
+### $\chi^2$ Meta-predictive Risk Assessment
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sodales nunc. Nulla pretium consectetur libero, hendrerit elementum lacus dictum et. Aliquam at purus et tortor placerat aliquam sodales quis augue. Nam imperdiet dolor rhoncus libero viverra bibendum. Ut id porttitor metus. Phasellus bibendum, elit sagittis rhoncus semper, velit mi malesuada metus, et elementum diam ante ut nunc. Cras nec tempor eros. Nunc quis felis ornare, cursus elit quis, tempus leo. Fusce et ornare leo. Duis eget facilisis sapien. Vestibulum pretium vel purus vel interdum. Aliquam erat volutpat. Suspendisse non libero porttitor, fermentum urna quis, viverra libero. Phasellus ornare metus id ultricies dapibus.
+
+Quisque eu orci vel massa auctor convallis. In sollicitudin dignissim bibendum. Sed commodo sem eget placerat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis cursus pharetra. Cras vitae semper tortor. Etiam blandit laoreet mauris, et vestibulum magna. Integer massa ipsum, aliquet eu eros in, lacinia vehicula urna. Donec mollis magna urna, nec condimentum elit pellentesque id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam id condimentum risus. Nulla ornare blandit risus sed sagittis.
+
+> Simply the best
+
+
+
+$$ \chi^\color{red} 2 $$
+

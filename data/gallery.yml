@@ -1,0 +1,8 @@
+enable  : true
+galleryImages :
+  - image : images/product/item-1.jpg
+  - image : images/product/item-2.jpg
+  - image : images/product/item-3.jpg
+  - image : images/product/item-4.jpg
+  - image : images/product/item-5.jpg
+  - image : images/product/item-6.jpg

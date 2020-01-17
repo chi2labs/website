@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>product on Chi-Square Labs | Learng Analytics Done Right</title>
+    <link>/tags/product/</link>
+    <description>Recent content in product on Chi-Square Labs | Learng Analytics Done Right</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meta-predictive Risk Model</title>
+      <link>/product/chi2_meta_predictive/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2_meta_predictive/</guid>
+      <description>\(\chi^2\) Meta-predictive Risk Model Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sodales nunc. Nulla pretium consectetur libero, hendrerit elementum lacus dictum et. Aliquam at purus et tortor placerat aliquam sodales quis augue. Nam imperdiet dolor rhoncus libero viverra bibendum. Ut id porttitor metus. Phasellus bibendum, elit sagittis rhoncus semper, velit mi malesuada metus, et elementum diam ante ut nunc. Cras nec tempor eros. Nunc quis felis ornare, cursus elit quis, tempus leo.</description>
+    </item>
+    
+    <item>
+      <title>Classroom Analytics</title>
+      <link>/product/chi2_classroom/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2_classroom/</guid>
+      <description> Analytics for face-to-face and hybrid courses For courses that are taught in the traditional face-to-face manner it can sometimes be trickly to collect enough data for a proper analysis. \(\chi^\color{red}2\)’s Classroom Analytics bridges the gap between online and face-to-face, and provides an important suplement to hybrid courses.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

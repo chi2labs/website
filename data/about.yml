@@ -1,0 +1,20 @@
+enable  : true
+title   : Why We are Different
+description: >
+  Chi Square Laboratories was founded by researchers and scientists with a passion for learning analytics and educational data-mining. 
+  <br>
+  <br>
+  Strongly rooted in academics, and with a decade of industry experience we apply scientific rigor to everything we do.  
+image   : images/about/about-company.jpg
+aboutItem:
+  - title : Why Choose Us
+    description: > 
+      With a combined thirty years of experience in a field that is just over ten years old, we know what works and more importantly what doesn't. 
+
+  - title : What You Get
+    description: > 
+      We provide honest, transparent and rigorous assessments of your learning analytics needs. We know there is no such thing as one size fits all.
+
+  - title : Our Commitment
+    description: > 
+      Our goal is to provide the best solutions avaiable. We are deeply committed to our clients' success each step of the way.

@@ -1,0 +1,16 @@
+---
+caption: Analyse your SIS data
+category:
+- product
+date: "2019-01-01"
+description: This is meta description
+image: images/product/chi2sis.png
+title: SIS Analytics
+#type: product
+---
+### $\chi^2$ SIS Analytics
+
+Plugs in to your SIS and provides descriptive analytics as well as inferential and predictive stuff. 
+
+> Simply the best
+

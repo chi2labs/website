@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Chi-Square Labs | Learng Analytics Done Right</title>
+    <link>/product/</link>
+    <description>Recent content in Portfolios on Chi-Square Labs | Learng Analytics Done Right</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/product/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning Analytics</title>
+      <link>/product/chi2lms/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2lms/</guid>
+      <description>\(\chi^2\) Learning Analytics Plugs in to your LMS and provides descriptive analytics as well as inferential and predictive stuff.
+ Simply the best
+ Consequuntur magni dolores ratione voluptatem.sequi nesciunt neque porro quisquam est dolorem ipsum quia dolor sit amet consectetur adipisci velit.lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat.</description>
+    </item>
+    
+    <item>
+      <title>SIS Analytics</title>
+      <link>/product/chi2sis/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2sis/</guid>
+      <description> \(\chi^2\) SIS Analytics Plugs in to your SIS and provides descriptive analytics as well as inferential and predictive stuff.
+ Simply the best
+  </description>
+    </item>
+    
+    <item>
+      <title>Curriculum Analysis</title>
+      <link>/product/chi2curriclum_analysis/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2curriclum_analysis/</guid>
+      <description> \(\chi^2\) Curriculum Analysis Unlock the insights hidden in your curriculum.
+ Simply the best
+  </description>
+    </item>
+    
+    <item>
+      <title>Meta Predictive Risk Assessment</title>
+      <link>/product/chi2_meta_predictive/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2_meta_predictive/</guid>
+      <description>\(\chi^2\) Meta-predictive Risk Assessment Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sodales nunc. Nulla pretium consectetur libero, hendrerit elementum lacus dictum et. Aliquam at purus et tortor placerat aliquam sodales quis augue. Nam imperdiet dolor rhoncus libero viverra bibendum. Ut id porttitor metus. Phasellus bibendum, elit sagittis rhoncus semper, velit mi malesuada metus, et elementum diam ante ut nunc. Cras nec tempor eros. Nunc quis felis ornare, cursus elit quis, tempus leo.</description>
+    </item>
+    
+    <item>
+      <title>Classroom Analytics</title>
+      <link>/product/chi2_classroom/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2_classroom/</guid>
+      <description>\(\chi^2\) Meta-predictive Risk Assessment Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sodales nunc. Nulla pretium consectetur libero, hendrerit elementum lacus dictum et. Aliquam at purus et tortor placerat aliquam sodales quis augue. Nam imperdiet dolor rhoncus libero viverra bibendum. Ut id porttitor metus. Phasellus bibendum, elit sagittis rhoncus semper, velit mi malesuada metus, et elementum diam ante ut nunc. Cras nec tempor eros. Nunc quis felis ornare, cursus elit quis, tempus leo.</description>
+    </item>
+    
+    <item>
+      <title>Implementation Services</title>
+      <link>/product/chi2_implementation/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2_implementation/</guid>
+      <description>\(\chi^2\) Meta-predictive Risk Assessment Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sodales nunc. Nulla pretium consectetur libero, hendrerit elementum lacus dictum et. Aliquam at purus et tortor placerat aliquam sodales quis augue. Nam imperdiet dolor rhoncus libero viverra bibendum. Ut id porttitor metus. Phasellus bibendum, elit sagittis rhoncus semper, velit mi malesuada metus, et elementum diam ante ut nunc. Cras nec tempor eros. Nunc quis felis ornare, cursus elit quis, tempus leo.</description>
+    </item>
+    
+  </channel>
+</rss>

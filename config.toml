@@ -1,0 +1,79 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Chi-Square Labs | Learng Analytics Done Right"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "About"
+        url     = "about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Products"
+        url     = "product"
+        weight  = 3
+    [[menu.nav]]
+        name    = "Blog"
+        url     = "blog"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "contact"
+        weight  = 5
+
+# Site Params
+[params]
+    home = "Home"
+    dateFormat = "6 January 2006"
+
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = false
+        ##"images/slider.jpg"
+        heading = "$$\\chi^\\color{red}2$$ Laboratories"
+        description = "WITH OVER 10 YEARS EXPERIENCE, We know what works, and what doesn't. Peruse our website to learn more about our scientific approach."
+        [[params.banner.flipText]]
+            title   = "Learning Analytics"
+        [[params.banner.flipText]]
+            title   = "Educational Data-Mining"
+        [[params.banner.flipText]]
+            title   = "Adaptive Assessment"
+
+    # Homepage About Section
+    [params.about]
+        enable  = false
+        title   = "ABOUT ME"
+        content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+        image   = "images/about/about.jpg"
+
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "Stay in touch"
+        content = "Whether you have questions, need to schedule a demo, or  have criticism, praise, suggestions or general feedback? We're here to help."
+        btnText = "Contact Us"
+        btnURL  = "/contact"
+
+    # Portfolio Section On Homepage
+    [params.product]
+        enable  = true
+        title   = "Products and Services"
+        subtitle= "Our portfolio of products and services is designed to meet all your learning analytics needs." 
+
+    [params.footer]
+        [[params.footer.socialIcon]]
+            icon = "ion-social-facebook"
+            url = "#"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-instagram"
+            url = "#"
+
+        [[params.footer.socialIcon]]
+            icon = "ion-social-linkedin"
+            url = "#"

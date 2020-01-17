@@ -1,0 +1,42 @@
+---
+title: "Test Post"
+author: "Aleksander Dietrichson, PhD"
+date: 2020-01-14T21:13:14-05:00
+categories: ["R"]
+##image: images/blog/pressure-1.png
+tags: ["R Markdown", "learning analytics", "research"]
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+```
+
+## Test post
+
+This is a test post, based on a default markdown document in Rstudio. This post has been written to test out some of the features we're looking to use. For example, I would like to see how a knitr::kable would look in this template.
+
+
+```{r cars}
+summary(cars) %>% 
+  knitr::kable()
+```
+
+## Trying another table
+
+```{r}
+data.frame(a=1:10,b=10:1) %>% 
+  knitr::kable()
+```
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

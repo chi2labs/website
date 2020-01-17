@@ -1,0 +1,27 @@
+enable  : true
+title   : MEET THE TEAM
+members  :
+  - name  : Aleksander (Sasha) Dietrichson, PhD
+    image : images/team/team-1.jpg
+    designation : Founder and CEO
+    description : Sasha brings more than twenty years of experience from the e-learning and learning analytics industry to the team. 
+
+  - name  : John Whitmer, EdM
+    image : images/team/team-3.jpg
+    designation : Chief Research Officer
+    description : Dr. John Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+
+  - name  : Jesmin Martina, EdM
+    image : images/team/team-2.jpg
+    designation : VP Customer support.
+    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+
+  - name  : Diego Forteza, MSci
+    image : images/team/team-4.jpg
+    designation : VP, Statistical Modeling and AI Engineering
+    description : Diego 
+
+  - name  : Pablo Pagnone
+    image : images/team/team-4.jpg
+    designation : Lead Developer
+    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore

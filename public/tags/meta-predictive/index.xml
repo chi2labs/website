@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meta-predictive on Chi-Square Labs | Learng Analytics Done Right</title>
+    <link>/tags/meta-predictive/</link>
+    <description>Recent content in meta-predictive on Chi-Square Labs | Learng Analytics Done Right</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/meta-predictive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meta-predictive Risk Model</title>
+      <link>/product/chi2_meta_predictive/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/product/chi2_meta_predictive/</guid>
+      <description>\(\chi^2\) Meta-predictive Risk Model Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sodales nunc. Nulla pretium consectetur libero, hendrerit elementum lacus dictum et. Aliquam at purus et tortor placerat aliquam sodales quis augue. Nam imperdiet dolor rhoncus libero viverra bibendum. Ut id porttitor metus. Phasellus bibendum, elit sagittis rhoncus semper, velit mi malesuada metus, et elementum diam ante ut nunc. Cras nec tempor eros. Nunc quis felis ornare, cursus elit quis, tempus leo.</description>
+    </item>
+    
+  </channel>
+</rss>
