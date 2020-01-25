@@ -1,11 +1,11 @@
 enable  : true
 title   : Why We are Different
-description: >
-  Chi Square Laboratories was founded by researchers and scientists with a passion for learning analytics and educational data-mining. 
-  <br>
-  <br>
-  Strongly rooted in academics, and with a decade of industry experience we apply scientific rigor to everything we do.  
-image   : images/about/about-company.jpg
+#description: >
+#  Chi Square Laboratories was founded by researchers and scientists with a passion for learning analytics and educational data-mining. 
+#  <br>
+#  <br>
+#  Strongly rooted in academics, and with a decade of industry experience we apply scientific rigor to everything we do.  
+#image   : images/about/about-company.jpg
 aboutItem:
   - title : Why Choose Us
     description: > 

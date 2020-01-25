@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{ partial "page-title.html" . }}
-
+<!--
 {{ "<!-- Company Description Section Start -->" | safeHTML }}
 <section class="company-description">
     <div class="container">
@@ -22,6 +22,8 @@
         </div>
     </div>
 </section>
+-->
+{{ partial "team.html" . }}
 
 {{ "<!--  Company Feature Section Start -->" | safeHTML }}
 <section class="about-feature clearfix">
@@ -41,7 +43,6 @@
 </section>
 {{ "<!--  Company Feature Section End -->" | safeHTML }}
 
-{{ partial "team.html" . }}
 
 {{ partial "clients.html" . }}
 
