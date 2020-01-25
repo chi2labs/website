@@ -1,14 +1,10 @@
 enable  : true
-title   : OUR HAPPY CLINETS
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.
+title   : OUR HAPPY PARTNERS
+subtitle: Some of the great institutions and companies we are honored to work with.
 clientsLogo:
-  - image : images/clients/logo-1.jpg
-  - image : images/clients/logo-2.jpg
-  - image : images/clients/logo-3.jpg
-  - image : images/clients/logo-4.jpg
-  - image : images/clients/logo-5.jpg
-  - image : images/clients/logo-1.jpg
-  - image : images/clients/logo-2.jpg
-  - image : images/clients/logo-3.jpg
-  - image : images/clients/logo-4.jpg
-  - image : images/clients/logo-5.jpg
+  - image : images/clients/logo-unizin.png
+  - image : images/clients/logo-ethink.png
+  - image : images/clients/logo-briteclass.png
+  - image : images/clients/logo-unsam.jpg
+  
+  
