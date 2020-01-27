@@ -11,7 +11,7 @@ output: html_document
 
 
 
-<p>In spite of both theorecital and empirical evidence to the contrary, many assume that grades are or should be normally distributed. This has important implications for how we understand and analyze these data-points within learning analytics. In this blog posts I will take a look at some of the theoretical assumtions surrounding the normal distribution and how it applies to grading data, and offer some proposals on what to do when these assumptions are not met.</p>
+<p>In spite of both theorecital and empirical evidence to the contrary, it is often assumed that grades are or should be normally distributed. This has important implications for how we understand and analyze these data-points within learning analytics. In this blog posts I will take a look at some of the theoretical assumtions surrounding the normal distribution and how it applies to grading data, and offer some proposals on what to do when these assumptions are not met.</p>
 <div id="the-theory" class="section level1">
 <h1>The Theory</h1>
 <p>The <em>normal</em> distribution (AKA <em>Gaussian</em> or <em>LaPlace-Gauss</em> distribution) is defined by two parameters its mean (<span class="math inline">\(\mu\)</span>) and variance (<span class="math inline">\(\sigma^2\)</span>). The normal distribution is further a <em>continuous</em> distribution and its limits are -<span class="math inline">\(\infty\)</span> to <span class="math inline">\(\infty\)</span>.</p>
@@ -35,6 +35,7 @@ Group.B &lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5, 9,
 <pre class="r"><code>mean(Group.B)</code></pre>
 <pre><code>## [1] 7.028571</code></pre>
 <p>We see that there is a difference of about one point between the two groups, i.e. about 10%. Now we would like to know if the difference is statistically significant, i.e. if we can reasonably conclude that the difference is not due to just random variation. The go-to technique for this case is Student’s t-test.</p>
+<pre class="r"><code>t.test(Group.A, Group.B)</code></pre>
 <pre><code>## 
 ##  Welch Two Sample t-test
 ## 
@@ -55,19 +56,20 @@ Group.B &lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5, 9,
 <p><img src="/blog/not_normal_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <p>By looking at this plot we may start to suspect that our samples are not normally distributed. There are some statistical tests that can be used to formally test this. One of them is the <em>Shapiro-Wilk Test</em>.</p>
 <p>This techique tests the null-hypothesis of a normal distribution and calculates a corresponding p-level. It is often recommended to use an alpha-level of .1 when applying this test, to err on the side of caution. It is convenienty available in R:</p>
+<pre class="r"><code>shapiro.test(Group.A)</code></pre>
 <pre><code>## 
 ##  Shapiro-Wilk normality test
 ## 
 ## data:  Group.A
 ## W = 0.8444, p-value = 0.0005847</code></pre>
+<pre class="r"><code>shapiro.test(Group.B)</code></pre>
 <pre><code>## 
 ##  Shapiro-Wilk normality test
 ## 
 ## data:  Group.B
 ## W = 0.92425, p-value = 0.01894</code></pre>
 <p>We see that neither of the two groups conform to a normal distribution, so the using a t-test is actually not appropriate. Luckily we have a <em>non-parametric</em> alternative, the <em>Wilcox Rank Sum Test</em>.</p>
-<pre><code>## Warning in wilcox.test.default(Group.A, Group.B): cannot compute exact p-value
-## with ties</code></pre>
+<pre class="r"><code>wilcox.test(Group.A, Group.B)</code></pre>
 <pre><code>## 
 ##  Wilcoxon rank sum test with continuity correction
 ## 
