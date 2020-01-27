@@ -12,13 +12,14 @@
     
     
     <item>
-      <title>Test Post</title>
-      <link>/blog/test_page/</link>
+      <title>Not Normal!</title>
+      <link>/blog/not_normal/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
       
-      <guid>/blog/test_page/</guid>
-      <description>Test post This is a test post, based on a default markdown document in Rstudio. This post has been written to test out some of the features we’re looking to use. For example, I would like to see how a knitr::kable would look in this template.
-   speed dist     Min. : 4.0 Min. : 2.00   1st Qu.:12.0 1st Qu.: 26.00   Median :15.</description>
+      <guid>/blog/not_normal/</guid>
+      <description>In spite of both theorecital and empirical evidence to the contrary, many assume that grades are or should be normally distributed. This has important implications for how we understand and analyze these data-points within learning analytics.
+The Theory For a distribution to
+ Practical Considerations Assumtions regarding the normality of the data is often overlooked, even by grown-up, professional statistics professors like this author. However insisting on a modicum of rigor may keep the learning analytics researcher out of trouble and help extract more information from the data available.</description>
     </item>
     
   </channel>

@@ -12,20 +12,29 @@
     
     
     <item>
-      <title>learning analytics</title>
-      <link>/tags/learning-analytics/</link>
+      <title>methods</title>
+      <link>/tags/methods/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
       
-      <guid>/tags/learning-analytics/</guid>
+      <guid>/tags/methods/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <title>non-parametric</title>
+      <link>/tags/non-parametric/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/tags/non-parametric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     

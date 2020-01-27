@@ -1,5 +1,5 @@
 ---
-title: "Test Post"
+title: "Not Normal!"
 author: "Aleksander Dietrichson, PhD"
 date: 2020-01-14T21:13:14-05:00
 categories: ["R"]
@@ -13,30 +13,14 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
 
-## Test post
-
-This is a test post, based on a default markdown document in Rstudio. This post has been written to test out some of the features we're looking to use. For example, I would like to see how a knitr::kable would look in this template.
+In spite of both theorecital and empirical evidence to the contrary, many assume that grades are or should be normally distributed. This has important implications for how we understand and analyze these data-points within learning analytics. 
 
 
-```{r cars}
-summary(cars) %>% 
-  knitr::kable()
-```
+## The Theory
 
-## Trying another table
+For a distribution to 
 
-```{r}
-data.frame(a=1:10,b=10:1) %>% 
-  knitr::kable()
-```
+## Empricical Considerations
 
+## Practical Implications
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
