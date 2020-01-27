@@ -24,7 +24,6 @@ The *normal* distribution (AKA *Gaussian* or *LaPlace-Gauss* distribution) is de
 We can already see that there are some problems with this relating to grade data. Firstly, grades are not given on a continuous scale. Letter-grades are typically gives as say A+, A and A- etcetera, and even in locations where number grades are common, one rarely sees decimal expansions beyond a *tick* of one half-grade, e.g. 9.5/10 and so on. So grades are given on a *discrete* scale of some sort. 
 Secondly, grades are limited to a maximum grade and minimum grade, it is clearly not possible to receive a *negative* grade.
 
-
 # Why Does It Matter?
 
 A lot of techniques used for modeling data and conducting inferential analyses are based on the assumtion that the data under analysis follow a normal distributions.  Well knows methods such as *linear regression*, the *z-test* and *Student's T-Test* all rely on this assumption.  
@@ -80,7 +79,7 @@ shapiro.test(Group.A)
 shapiro.test(Group.B)
 ```
 
-We see that neither of the two groups conform to a normal distribution, so the using a t-test is actually not appropriate. Luckily we have a *non-parametric* alternative, the *Wilcox Rank Sum Test*.
+We see that neither of the two groups conforms to a normal distribution, so the using a t-test is actually not appropriate. Luckily we have a *non-parametric* alternative, the *Wilcox Rank Sum Test*. This test is also conveniently available in R.
 
 ```{r echo=TRUE, warning=FALSE}
 wilcox.test(Group.A, Group.B)

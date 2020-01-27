@@ -68,7 +68,7 @@ Group.B &lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5, 9,
 ## 
 ## data:  Group.B
 ## W = 0.92425, p-value = 0.01894</code></pre>
-<p>We see that neither of the two groups conform to a normal distribution, so the using a t-test is actually not appropriate. Luckily we have a <em>non-parametric</em> alternative, the <em>Wilcox Rank Sum Test</em>.</p>
+<p>We see that neither of the two groups conforms to a normal distribution, so the using a t-test is actually not appropriate. Luckily we have a <em>non-parametric</em> alternative, the <em>Wilcox Rank Sum Test</em>. This test is also conveniently available in R.</p>
 <pre class="r"><code>wilcox.test(Group.A, Group.B)</code></pre>
 <pre><code>## 
 ##  Wilcoxon rank sum test with continuity correction
