@@ -37,9 +37,7 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/product/chi2sis/</guid>
-      <description> \(\chi^2\) SIS Analytics Plugs in to your SIS and provides descriptive analytics as well as inferential and predictive stuff.
- Simply the best
-  </description>
+      <description>\(\chi^\color{red}2\) SIS Analytics Your institution’s student information system (SIS) is an invaluable source of information for performing Learning Analytics and Educational Data-Mining. Beyond just students’ grades it can provide deep insight into your student population and inform other LA-systems in place. Our SIS analytics extracts this information both for use by our other systems, and for direct use by the institution as it provides interfaces for descriptive and inferential analysis, as well as precitive modeling capabilities.</description>
     </item>
     
     <item>
@@ -59,7 +57,8 @@
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/product/chi2_meta_predictive/</guid>
-      <description>\(\chi^2\) Meta-predictive Risk Model Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sodales nunc. Nulla pretium consectetur libero, hendrerit elementum lacus dictum et. Aliquam at purus et tortor placerat aliquam sodales quis augue. Nam imperdiet dolor rhoncus libero viverra bibendum. Ut id porttitor metus. Phasellus bibendum, elit sagittis rhoncus semper, velit mi malesuada metus, et elementum diam ante ut nunc. Cras nec tempor eros. Nunc quis felis ornare, cursus elit quis, tempus leo.</description>
+      <description>\(\chi^\color{red}2\) Meta-predictive Risk Model Our Meta-predictive Risk Assessment methodology allows institutions to assess the likelihood of success when implementing early warning systems. Before investing resources into a full-fledged implementation, we can assess what is likely to work and, more importantly, what will likely not work, this allowing the institution to target its investments in analytics to systems that will actually provide a return.
+ Is there a there there, is a question that should be asked as early as possible.</description>
     </item>
     
     <item>
@@ -78,7 +77,7 @@
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/product/chi2_implementation/</guid>
-      <description>\(\chi^2\) Meta-predictive Risk Assessment Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sodales nunc. Nulla pretium consectetur libero, hendrerit elementum lacus dictum et. Aliquam at purus et tortor placerat aliquam sodales quis augue. Nam imperdiet dolor rhoncus libero viverra bibendum. Ut id porttitor metus. Phasellus bibendum, elit sagittis rhoncus semper, velit mi malesuada metus, et elementum diam ante ut nunc. Cras nec tempor eros. Nunc quis felis ornare, cursus elit quis, tempus leo.</description>
+      <description>\(\chi^\color{red}2\) Implementation Services A production level learning analytics systems typically involves a lot of moving pieces. Different data-sources, systems and people need to talk to each-other in a seamless fashion in order to provide the right information to the right stakeholders in time for action to be taken. It is also the case that once a Learning Analytics system has been implemented it too becomes a non-trivial component of the organization and influences its processes and outcomes.</description>
     </item>
     
     <item>
