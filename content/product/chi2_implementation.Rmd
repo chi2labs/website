@@ -3,7 +3,7 @@ caption: Multisystemic Learning Analytics for your Institution
 category:
 - product
 date: "2018-11-30"
-description: This is meta description
+description: Chi Square Implementation Services
 image: images/product/implementation_services.png
 title: Implementation Services
 #type: product

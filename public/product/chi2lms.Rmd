@@ -3,7 +3,7 @@ caption: Analytics for your LMS
 category:
 - product
 date: "2020-01-24"
-description: This is meta description
+description: Chi Square Learning Analytics
 image: images/product/chi2analytics.png
 submitDate: November 18, 2017
 title: Learning Analytics

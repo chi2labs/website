@@ -3,7 +3,7 @@ caption: Analyse your SIS data
 category:
 - product
 date: "2019-01-01"
-description: This is meta description
+description: Chi Square SIS analysis
 image: images/product/chi2sis.png
 title: SIS Analytics
 #type: product

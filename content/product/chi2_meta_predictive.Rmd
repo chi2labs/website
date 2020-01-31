@@ -6,7 +6,7 @@ tags:
   - product
   - meta-predictive
 date: "2018-12-30"
-description: Meta-predictive Risk Assessment with Chi-Square
+description: Meta-predictive Risk Assessment with Chi Square
 image: images/product/meta_predictive.png
 title: Meta-predictive Risk Model
 #type: product
