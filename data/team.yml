@@ -14,14 +14,14 @@ members  :
   - name  : Jesmin Martina, EdM
     image : images/team/team-2.jpg
     designation : VP Customer support.
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-
+    description : Jesmin's experience in science dissemination makes her ideal for explaining complicated statistics and algoritms in plain English. 
+    
   - name  : Diego Forteza, MSci
     image : images/team/team-diego.jpg
     designation : VP, Statistical Modeling and AI Engineering
-    description : Diego 
+    description : A statistician by trade, Diego brings decades of experience in statistical modeling and artificial intelligence to the team. 
 
   - name  : Pablo Pagnone
     image : images/team/team-pablo.jpg
     designation : Lead Developer
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    description : With over ten years of experience in field, Pablo knows how to scale.  
