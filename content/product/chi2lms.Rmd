@@ -9,9 +9,9 @@ submitDate: November 18, 2017
 title: Learning Analytics
 #type: product
 ---
-### $\chi^\{red}2$ Learning Analytics
+### $\chi^\color{red}2$ Learning Analytics
 
-Our learning analytics product plugs in to your LMS for real-time analysis. From descriptive, comparative and inferential anaysis, all the way to predictive models, retention risk management and the AI-driven recommendation engine, it provides analyses for stutents, instructors, guidance councelors and administrators. With more than 80 reports, ad-hoc inferential statistics and custom trained models, $\chi^\{red}2$ Learning Analytics provides a complete suite of analysis tools for academic institutions. 
+Our learning analytics product plugs in to your LMS for real-time analysis. From descriptive, comparative and inferential anaysis, all the way to predictive models, retention risk management and the AI-driven recommendation engine, it provides analyses for stutents, instructors, guidance councelors and administrators. With more than 80 reports, ad-hoc inferential statistics and custom trained models, $\chi^\color{red}2$ Learning Analytics provides a complete suite of analysis tools for academic institutions. 
 
 > Simply the best
 
