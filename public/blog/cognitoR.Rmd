@@ -1,0 +1,39 @@
+---
+title: "R package cognitoR 1.0.1 has been released"
+description: "The cognitoR package has been released on CRAN."
+author: "Aleksander Dietrichson, PhD"
+date: 2020-04-29T21:13:14-05:00
+categories: ["R"]
+##image: images/blog/pressure-1.png
+tags: ["R", "AWS"]
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+```
+
+Today we are proud to announce that the *cognitoR* package has been released on CRAN.
+The package provides password protection for your Shiny apps using the popular *Cognito* from Amazon Web Services.
+
+Cognito allows for simple and secure sign-up, sign-in and access control. The cognitoR package brings the power of this  service into your Shiny Apps. You can let users register to access your app, or, use the AWS infrastructure to implement fine tuned access control. Whether your Shiny app is a standalone project in need of access control or part of a Amazon stack, cognitoR will let you manage access easily and securely.  
+
+
+The package can be installed from CRAN with:
+
+``` r
+install.packages("cognitoR")
+```
+
+The development version is available from GitHub with:
+
+``` r
+devtools::install_github("chi2labs/cognitoR")
+```
+
+A typical use-case for this is a shiny app which needs to display a sub-selection of modules and/or data depending on who is accessing the application. At $X^2$ we use cognito to allow instructors access to analysis and data related to their courses (and only the courses they teach) while other instructors can log in to the same application and see the analyses and data that are relevant for them.
+
+
+Full documentation of the functions in cognitoR, as well as links to sample applications, can be found at [chi2labs/cognitoR](https://github.com/chi2labs/cognitoR).
+
