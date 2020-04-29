@@ -6,7 +6,7 @@
     <description>Recent content in AWS on Chi Square Labs | Learning Analytics Done Right</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2020 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 21:10:14 -0500</lastBuildDate>
     
 	<atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>R package cognitoR 1.0.1 has been released</title>
       <link>/blog/cognitor/</link>
-      <pubDate>Wed, 29 Apr 2020 21:13:14 -0500</pubDate>
+      <pubDate>Wed, 29 Apr 2020 21:10:14 -0500</pubDate>
       
       <guid>/blog/cognitor/</guid>
       <description>Today we are proud to announce that the cognitoR package has been released on CRAN. The package provides password protection for your Shiny apps using the popular Cognito from Amazon Web Services.

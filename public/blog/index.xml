@@ -14,7 +14,7 @@
     <item>
       <title>R package cognitoR 1.0.1 has been released</title>
       <link>/blog/cognitor/</link>
-      <pubDate>Wed, 29 Apr 2020 21:13:14 -0500</pubDate>
+      <pubDate>Wed, 29 Apr 2020 21:10:14 -0500</pubDate>
       
       <guid>/blog/cognitor/</guid>
       <description>Today we are proud to announce that the cognitoR package has been released on CRAN. The package provides password protection for your Shiny apps using the popular Cognito from Amazon Web Services.
