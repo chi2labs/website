@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R-bloggers on Chi Square Labs | Learning Analytics Done Right</title>
+    <link>/tags/r-bloggers/</link>
+    <description>Recent content in R-bloggers on Chi Square Labs | Learning Analytics Done Right</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Apr 2020 21:10:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/r-bloggers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R package cognitoR 1.0.1 has been released</title>
+      <link>/blog/cognitor/</link>
+      <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
+      
+      <guid>/blog/cognitor/</guid>
+      <description>Today we are proud to announce that the cognitoR package has been released on CRAN. The package provides password protection for your Shiny apps using the popular Cognito from Amazon Web Services.
+Cognito allows for simple and secure sign-up, sign-in and access control. The cognitoR package brings the power of this service into your Shiny Apps. You can let users register to access your app, or, use the AWS infrastructure to implement fine tuned access control.</description>
+    </item>
+    
+  </channel>
+</rss>
