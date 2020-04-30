@@ -1,72 +1,111 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Products on Chi Square Labs | Learning Analytics Done Right</title>
+    <title>Products | Chi Square Labs | Learning Analytics Done Right</title>
     <link>/product/</link>
-    <description>Recent content in Products on Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/product/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+      <atom:link href="/product/index.xml" rel="self" type="application/rss+xml" />
+    <description>Products</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Learning Analytics</title>
       <link>/product/chi2lms/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>/product/chi2lms/</guid>
-      <description>\(\chi^\color{red}2\) Learning Analytics Our learning analytics product plugs in to your LMS for real-time analysis. From descriptive, comparative and inferential anaysis, all the way to predictive models, retention risk management and the AI-driven recommendation engine, it provides analyses for stutents, instructors, guidance councelors and administrators. With more than 80 reports, ad-hoc inferential statistics and custom trained models, \(\chi^\color{red}2\) Learning Analytics provides a complete suite of analysis tools for academic institutions.</description>
+      <description>
+
+
+&lt;div id=&#34;chicolorred2-learning-analytics&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt; Learning Analytics&lt;/h3&gt;
+&lt;p&gt;Our learning analytics product plugs in to your LMS for real-time analysis. From descriptive, comparative and inferential anaysis, all the way to predictive models, retention risk management and the AI-driven recommendation engine, it provides analyses for stutents, instructors, guidance councelors and administrators. With more than 80 reports, ad-hoc inferential statistics and custom trained models, &lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt; Learning Analytics provides a complete suite of analysis tools for academic institutions.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Simply the best&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>SIS Analytics</title>
       <link>/product/chi2sis/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>/product/chi2sis/</guid>
-      <description>\(\chi^\color{red}2\) SIS Analytics Your institution’s student information system (SIS) is an invaluable source of information for performing Learning Analytics and Educational Data-Mining. Beyond just students’ grades it can provide deep insight into your student population and inform other LA-systems in place. Our SIS analytics extracts this information both for use by our other systems, and for direct use by the institution as it provides interfaces for descriptive and inferential analysis, as well as precitive modeling capabilities.</description>
+      <description>
+
+
+&lt;div id=&#34;chicolorred2-sis-analytics&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt; SIS Analytics&lt;/h3&gt;
+&lt;p&gt;Your institution’s student information system (SIS) is an invaluable source of information for performing Learning Analytics and Educational Data-Mining. Beyond just students’ grades it can provide deep insight into your student population and inform other LA-systems in place. Our SIS analytics extracts this information both for use by our other systems, and for direct use by the institution as it provides interfaces for descriptive and inferential analysis, as well as precitive modeling capabilities.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your SIS is a treasure trove of information waiting to be unlocked&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Curriculum Analysis</title>
       <link>/product/chi2curriclum_analysis/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/product/chi2curriclum_analysis/</guid>
-      <description> \(\chi^2\) Curriculum Analysis Unlock the insights hidden in your curriculum.
- Simply the best
-  </description>
+      <description>
+
+
+&lt;div id=&#34;chi2-curriculum-analysis&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;math inline&#34;&gt;\(\chi^2\)&lt;/span&gt; Curriculum Analysis&lt;/h3&gt;
+&lt;p&gt;Unlock the insights hidden in your curriculum.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Simply the best&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Meta-predictive Risk Model</title>
       <link>/product/chi2_meta_predictive/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/product/chi2_meta_predictive/</guid>
-      <description>\(\chi^\color{red}2\) Meta-predictive Risk Model Our Meta-predictive Risk Assessment methodology allows institutions to assess the likelihood of success when implementing early warning systems. Before investing resources into a full-fledged implementation, we can assess what is likely to work and, more importantly, what will likely not work, this allowing the institution to target its investments in analytics to systems that will actually provide a return.
- Is there a there there, is a question that should be asked as early as possible.</description>
+      <description>
+
+
+&lt;div id=&#34;chicolorred2-meta-predictive-risk-model&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt; Meta-predictive Risk Model&lt;/h3&gt;
+&lt;p&gt;Our Meta-predictive Risk Assessment methodology allows institutions to assess the likelihood of success when implementing early warning systems. Before investing resources into a full-fledged implementation, we can assess what is likely to work and, more importantly, what will likely &lt;em&gt;not&lt;/em&gt; work, this allowing the institution to target its investments in analytics to systems that will actually provide a return.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is there a &lt;em&gt;there&lt;/em&gt; there, is a question that should be asked as early as possible. It avoids unsuccessful deployments of risk models, and uncovers improvement potential in institutional processes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Classroom Analytics</title>
       <link>/product/chi2_classroom/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/product/chi2_classroom/</guid>
-      <description> Analytics for face-to-face and hybrid courses For courses that are taught in the traditional face-to-face manner it can sometimes be trickly to collect enough data for a proper analysis. \(\chi^\color{red}2\)’s Classroom Analytics bridges the gap between online and face-to-face, and provides an important suplement to hybrid courses.
- </description>
+      <description>
+
+
+&lt;div id=&#34;analytics-for-face-to-face-and-hybrid-courses&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Analytics for face-to-face and hybrid courses&lt;/h3&gt;
+&lt;p&gt;For courses that are taught in the traditional face-to-face manner it can sometimes be trickly to collect enough data for a proper analysis. &lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt;’s &lt;em&gt;Classroom Analytics&lt;/em&gt; bridges the gap between online and face-to-face, and provides an important suplement to hybrid courses.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Implementation Services</title>
       <link>/product/chi2_implementation/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>/product/chi2_implementation/</guid>
-      <description>\(\chi^\color{red}2\) Implementation Services A production level learning analytics systems typically involves a lot of moving pieces. Different data-sources, systems and people need to talk to each-other in a seamless fashion in order to provide the right information to the right stakeholders in time for action to be taken. It is also the case that once a Learning Analytics system has been implemented it too becomes a non-trivial component of the organization and influences its processes and outcomes.</description>
+      <description>
+
+
+&lt;div id=&#34;chicolorred2-implementation-services&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt; Implementation Services&lt;/h3&gt;
+&lt;p&gt;A production level learning analytics systems typically involves a lot of moving pieces. Different data-sources, systems and people need to talk to each-other in a seamless fashion in order to provide the right information to the right stakeholders in time for action to be taken. It is also the case that once a Learning Analytics system has been implemented it too becomes a non-trivial component of the organization and influences its processes and outcomes. For this reason it is important to include procedures for continuous back-testing and adjustment. Our implementation services accompanies you every step of the way.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

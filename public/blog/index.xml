@@ -1,33 +1,112 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Chi Square Labs | Learning Analytics Done Right</title>
+    <title>Blog | Chi Square Labs | Learning Analytics Done Right</title>
     <link>/blog/</link>
-    <description>Recent content in Blog on Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jul 2018 12:32:37 +0600</lastBuildDate>
-    
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+      <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 15 Jul 2018 12:32:37 +0600</lastBuildDate>
     <item>
       <title>R package cognitoR 1.0.1 has been released</title>
       <link>/blog/cognitor/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      
       <guid>/blog/cognitor/</guid>
-      <description>Today we are proud to announce that the cognitoR package has been released on CRAN. The package provides password protection for your Shiny apps using the popular Cognito from Amazon Web Services.
-Cognito allows for simple and secure sign-up, sign-in and access control. The cognitoR package brings the power of this service into your Shiny Apps. You can let users register to access your app, or, use the AWS infrastructure to implement fine tuned access control.</description>
+      <description>
+
+
+&lt;p&gt;Today we are proud to announce that the &lt;em&gt;cognitoR&lt;/em&gt; package has been released on CRAN.
+The package provides password protection for your Shiny apps using the popular &lt;em&gt;Cognito&lt;/em&gt; from Amazon Web Services.&lt;/p&gt;
+&lt;p&gt;Cognito allows for simple and secure sign-up, sign-in and access control. The cognitoR package brings the power of this service into your Shiny Apps. You can let users register to access your app, or, use the AWS infrastructure to implement fine tuned access control. Whether your Shiny app is a standalone project in need of access control or part of a Amazon stack, cognitoR will let you manage access easily and securely.&lt;/p&gt;
+&lt;p&gt;The package can be installed from CRAN with:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;cognitoR&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The development version is available from GitHub with:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;devtools::install_github(&amp;quot;chi2labs/cognitoR&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A typical use-case for this is a shiny app which needs to display a sub-selection of modules and/or data depending on who is accessing the application. At &lt;span class=&#34;math inline&#34;&gt;\(X^2\)&lt;/span&gt; we use cognito to allow instructors access to analysis and data related to their courses (and only the courses they teach) while other instructors can log in to the same application and see the analyses and data that are relevant for them.&lt;/p&gt;
+&lt;p&gt;Full documentation of the functions in cognitoR, as well as links to sample applications, can be found at &lt;a href=&#34;https://github.com/chi2labs/cognitoR&#34;&gt;chi2labs/cognitoR&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Not Normal!</title>
       <link>/blog/not_normal/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
-      
       <guid>/blog/not_normal/</guid>
-      <description>In spite of both theorecital and empirical evidence to the contrary, it is often assumed that grades are or should be normally distributed. This has important implications for how we understand and analyze these data-points within learning analytics. In this blog posts I will take a look at some of the theoretical assumtions surrounding the normal distribution and how it applies to grading data, and offer some proposals on what to do when these assumptions are not met.</description>
+      <description>
+
+
+&lt;p&gt;In spite of both theorecital and empirical evidence to the contrary, it is often assumed that grades are or should be normally distributed. This has important implications for how we understand and analyze these data-points within learning analytics. In this blog posts I will take a look at some of the theoretical assumtions surrounding the normal distribution and how it applies to grading data, and offer some proposals on what to do when these assumptions are not met.&lt;/p&gt;
+&lt;div id=&#34;the-theory&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;The Theory&lt;/h1&gt;
+&lt;p&gt;The &lt;em&gt;normal&lt;/em&gt; distribution (AKA &lt;em&gt;Gaussian&lt;/em&gt; or &lt;em&gt;LaPlace-Gauss&lt;/em&gt; distribution) is defined by two parameters its mean (&lt;span class=&#34;math inline&#34;&gt;\(\mu\)&lt;/span&gt;) and variance (&lt;span class=&#34;math inline&#34;&gt;\(\sigma^2\)&lt;/span&gt;). The normal distribution is further a &lt;em&gt;continuous&lt;/em&gt; distribution and its limits are -&lt;span class=&#34;math inline&#34;&gt;\(\infty\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(\infty\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;We can already see that there are some problems with this relating to grade data. Firstly, grades are not given on a continuous scale. Letter-grades are typically gives as say A+, A and A- etcetera, and even in locations where number grades are common, one rarely sees decimal expansions beyond a &lt;em&gt;tick&lt;/em&gt; of one half-grade, e.g. 9.5/10 and so on. So grades are given on a &lt;em&gt;discrete&lt;/em&gt; scale of some sort.
+Secondly, grades are limited to a maximum grade and minimum grade, it is clearly not possible to receive a &lt;em&gt;negative&lt;/em&gt; grade.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;why-does-it-matter&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Why Does It Matter?&lt;/h1&gt;
+&lt;p&gt;A lot of techniques used for modeling data and conducting inferential analyses are based on the assumtion that the data under analysis follow a normal distributions. Well knows methods such as &lt;em&gt;linear regression&lt;/em&gt;, the &lt;em&gt;z-test&lt;/em&gt; and &lt;em&gt;Student’s T-Test&lt;/em&gt; all rely on this assumption.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;a-practical-example&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;A Practical Example&lt;/h1&gt;
+&lt;p&gt;The data below are final grades from two different sections (Group A and Group B) of the same course. The researcher has experimented with different courseware for each of the section and wants to know if the courseware made a difference. The grades are assigned on scale from zero to ten. Let’s take a look at how these data can be analyzed.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Group.A &amp;lt;- c(7.5, 10, 7.5, 8, 10, 4, 4, 6, 8, 4, 4, 8, 9, 4, 5, 6, 5, 9, 4, 5, 4, 7, 5, 4, 4, 4, 9, 6, 4)
+
+Group.B &amp;lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5, 9, 7.5, 9, 9, 10, 10, 7, 4, 7, 4, 5, 6, 6, 10, 5, 9, 4)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;the-fast-and-furious-approach&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Fast and Furious Approach&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mean(Group.A)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 6.034483&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mean(Group.B)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 7.028571&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We see that there is a difference of about one point between the two groups, i.e. about 10%. Now we would like to know if the difference is statistically significant, i.e. if we can reasonably conclude that the difference is not due to just random variation. The go-to technique for this case is Student’s t-test.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;t.test(Group.A, Group.B)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##  Welch Two Sample t-test
+## 
+## data:  Group.A and Group.B
+## t = -1.8346, df = 60.781, p-value = 0.07145
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##  -2.07765141  0.08947407
+## sample estimates:
+## mean of x mean of y 
+##  6.034483  7.028571&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We see that while there is a difference in the mean between the two groups it does not reach the level of statistical significance, typically defined as an &lt;em&gt;alpha-level&lt;/em&gt; of .05.&lt;/p&gt;
+&lt;p&gt;Tough luck! We’ll try again next semester…&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-rigorous-approach&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Rigorous Approach&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Always visualize!&lt;/em&gt; It is typically a good idea to visualize the data we’re analyzing to get a sense for its structure and shape. This will also, incidentally, aid in the detection of outliers, data-entry mistakes and other problems in the data that we would want to deal with before proceeding with the analysis. Here we plot the density of each of the groups using R and ggplot:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/blog/not_normal_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;By looking at this plot we may start to suspect that our samples are not normally distributed. There are some statistical tests that can be used to formally test this. One of them is the &lt;em&gt;Shapiro-Wilk Test&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This techique tests the null-hypothesis of a normal distribution and calculates a corresponding p-level. It is often recommended to use an alpha-level of .1 when applying this test, to err on the side of caution. It is convenienty available in R:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;shapiro.test(Group.A)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##  Shapiro-Wilk normality test
+## 
+## data:  Group.A
+## W = 0.8444, p-value = 0.0005847&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;shapiro.test(Group.B)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##  Shapiro-Wilk normality test
+## 
+## data:  Group.B
+## W = 0.92425, p-value = 0.01894&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We see that neither of the two groups conforms to a normal distribution, so the using a t-test is actually not appropriate. Luckily we have a &lt;em&gt;non-parametric&lt;/em&gt; alternative, the &lt;em&gt;Wilcox Rank Sum Test&lt;/em&gt;. This test is also conveniently available in R.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;wilcox.test(Group.A, Group.B)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+##  Wilcoxon rank sum test with continuity correction
+## 
+## data:  Group.A and Group.B
+## W = 362.5, p-value = 0.04859
+## alternative hypothesis: true location shift is not equal to 0&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We have a p-value below our selected alpha-level of .05, and can therefore reject the null-hypothesis of no real difference between the two groups.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Not testing for the assumption of normality can lead to undesired consequences for inferential analysis. In the example above, we see that the &lt;em&gt;vanilla&lt;/em&gt; t-test fails to reject our null-hypothesis, however, its non-parametric counterpart succeeds. By adopting a somewhat more rigorous approach we were able to select the correct statistical test and uncover patterns in our data that the parametric test could not.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

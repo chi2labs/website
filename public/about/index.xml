@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Us on Chi Square Labs | Learning Analytics Done Right</title>
+    <title>About Us | Chi Square Labs | Learning Analytics Done Right</title>
     <link>/about/</link>
-    <description>Recent content in About Us on Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 12 Jul 2018 18:19:33 +0600</lastBuildDate>
-    
-	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+      <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <description>About Us</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 12 Jul 2018 18:19:33 +0600</lastBuildDate>
   </channel>
 </rss>

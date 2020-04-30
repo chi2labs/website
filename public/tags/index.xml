@@ -1,21 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Chi Square Labs | Learning Analytics Done Right</title>
+    <title>Tags | Chi Square Labs | Learning Analytics Done Right</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2020 21:10:14 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2020 21:10:14 -0500</lastBuildDate>
     <item>
       <title>AWS</title>
       <link>/tags/aws/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      
       <guid>/tags/aws/</guid>
       <description></description>
     </item>
@@ -24,7 +18,6 @@
       <title>R</title>
       <link>/tags/r/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      
       <guid>/tags/r/</guid>
       <description></description>
     </item>
@@ -33,7 +26,6 @@
       <title>R-bloggers</title>
       <link>/tags/r-bloggers/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      
       <guid>/tags/r-bloggers/</guid>
       <description></description>
     </item>
@@ -42,7 +34,6 @@
       <title>methods</title>
       <link>/tags/methods/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
-      
       <guid>/tags/methods/</guid>
       <description></description>
     </item>
@@ -51,7 +42,6 @@
       <title>non-parametric</title>
       <link>/tags/non-parametric/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
-      
       <guid>/tags/non-parametric/</guid>
       <description></description>
     </item>
@@ -60,7 +50,6 @@
       <title>research</title>
       <link>/tags/research/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
-      
       <guid>/tags/research/</guid>
       <description></description>
     </item>
@@ -69,7 +58,6 @@
       <title>meta-predictive</title>
       <link>/tags/meta-predictive/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/meta-predictive/</guid>
       <description></description>
     </item>
@@ -78,7 +66,6 @@
       <title>product</title>
       <link>/tags/product/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/product/</guid>
       <description></description>
     </item>

@@ -1,34 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>product on Chi Square Labs | Learning Analytics Done Right</title>
+    <title>product | Chi Square Labs | Learning Analytics Done Right</title>
     <link>/tags/product/</link>
-    <description>Recent content in product on Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/product/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+      <atom:link href="/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    <description>product</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Meta-predictive Risk Model</title>
       <link>/product/chi2_meta_predictive/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/product/chi2_meta_predictive/</guid>
-      <description>\(\chi^\color{red}2\) Meta-predictive Risk Model Our Meta-predictive Risk Assessment methodology allows institutions to assess the likelihood of success when implementing early warning systems. Before investing resources into a full-fledged implementation, we can assess what is likely to work and, more importantly, what will likely not work, this allowing the institution to target its investments in analytics to systems that will actually provide a return.
- Is there a there there, is a question that should be asked as early as possible.</description>
+      <description>
+
+
+&lt;div id=&#34;chicolorred2-meta-predictive-risk-model&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt; Meta-predictive Risk Model&lt;/h3&gt;
+&lt;p&gt;Our Meta-predictive Risk Assessment methodology allows institutions to assess the likelihood of success when implementing early warning systems. Before investing resources into a full-fledged implementation, we can assess what is likely to work and, more importantly, what will likely &lt;em&gt;not&lt;/em&gt; work, this allowing the institution to target its investments in analytics to systems that will actually provide a return.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is there a &lt;em&gt;there&lt;/em&gt; there, is a question that should be asked as early as possible. It avoids unsuccessful deployments of risk models, and uncovers improvement potential in institutional processes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Classroom Analytics</title>
       <link>/product/chi2_classroom/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/product/chi2_classroom/</guid>
-      <description> Analytics for face-to-face and hybrid courses For courses that are taught in the traditional face-to-face manner it can sometimes be trickly to collect enough data for a proper analysis. \(\chi^\color{red}2\)’s Classroom Analytics bridges the gap between online and face-to-face, and provides an important suplement to hybrid courses.
- </description>
+      <description>
+
+
+&lt;div id=&#34;analytics-for-face-to-face-and-hybrid-courses&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Analytics for face-to-face and hybrid courses&lt;/h3&gt;
+&lt;p&gt;For courses that are taught in the traditional face-to-face manner it can sometimes be trickly to collect enough data for a proper analysis. &lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt;’s &lt;em&gt;Classroom Analytics&lt;/em&gt; bridges the gap between online and face-to-face, and provides an important suplement to hybrid courses.&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

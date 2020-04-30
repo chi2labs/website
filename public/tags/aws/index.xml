@@ -1,24 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AWS on Chi Square Labs | Learning Analytics Done Right</title>
+    <title>AWS | Chi Square Labs | Learning Analytics Done Right</title>
     <link>/tags/aws/</link>
-    <description>Recent content in AWS on Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2020 21:10:14 -0500</lastBuildDate>
-    
-	<atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+      <atom:link href="/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <description>AWS</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2020 21:10:14 -0500</lastBuildDate>
     <item>
       <title>R package cognitoR 1.0.1 has been released</title>
       <link>/blog/cognitor/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      
       <guid>/blog/cognitor/</guid>
-      <description>Today we are proud to announce that the cognitoR package has been released on CRAN. The package provides password protection for your Shiny apps using the popular Cognito from Amazon Web Services.
-Cognito allows for simple and secure sign-up, sign-in and access control. The cognitoR package brings the power of this service into your Shiny Apps. You can let users register to access your app, or, use the AWS infrastructure to implement fine tuned access control.</description>
+      <description>
+
+
+&lt;p&gt;Today we are proud to announce that the &lt;em&gt;cognitoR&lt;/em&gt; package has been released on CRAN.
+The package provides password protection for your Shiny apps using the popular &lt;em&gt;Cognito&lt;/em&gt; from Amazon Web Services.&lt;/p&gt;
+&lt;p&gt;Cognito allows for simple and secure sign-up, sign-in and access control. The cognitoR package brings the power of this service into your Shiny Apps. You can let users register to access your app, or, use the AWS infrastructure to implement fine tuned access control. Whether your Shiny app is a standalone project in need of access control or part of a Amazon stack, cognitoR will let you manage access easily and securely.&lt;/p&gt;
+&lt;p&gt;The package can be installed from CRAN with:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;cognitoR&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The development version is available from GitHub with:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;devtools::install_github(&amp;quot;chi2labs/cognitoR&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A typical use-case for this is a shiny app which needs to display a sub-selection of modules and/or data depending on who is accessing the application. At &lt;span class=&#34;math inline&#34;&gt;\(X^2\)&lt;/span&gt; we use cognito to allow instructors access to analysis and data related to their courses (and only the courses they teach) while other instructors can log in to the same application and see the analyses and data that are relevant for them.&lt;/p&gt;
+&lt;p&gt;Full documentation of the functions in cognitoR, as well as links to sample applications, can be found at &lt;a href=&#34;https://github.com/chi2labs/cognitoR&#34;&gt;chi2labs/cognitoR&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
