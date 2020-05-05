@@ -80,6 +80,5 @@ theme = "timer-hugo"
 
 # Taxonomies support
 [taxonomies]
-  # Disabling categories
-  #category = "categories"
+  category = "categories"
   tag = "tags"

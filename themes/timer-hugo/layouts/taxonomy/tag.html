@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{ partial "page-title.html" . }}
-
+<!-- Override list of blogs in selected tag -->
 <section id="blog-full-width">
     <div class="container">
         <div class="row">
@@ -26,7 +26,10 @@
                             {{ end }}
                             <span>
                             {{ range .Params.tags }}
-                               <a href='{{ printf "tags/%s" . | urlize | absURL}}'>{{.}}</a>, 
+                              <!-- we don't show R-bloggers tag -->
+                              {{ if ne . "R-bloggers"}} 
+                                 <a href='{{ printf "tags/%s" . | urlize | absURL}}'>{{.}}</a>,
+                              {{ end }} 
                             {{ end }}
                             </span>
                         </div>
