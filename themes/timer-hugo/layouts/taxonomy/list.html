@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+<section id="blog-full-width">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <ul>
+                {{ range .Data.Pages }}
+                  <li>
+                    <h2><a href="{{.RelPermalink}}">{{ .Title }}</a></h2>
+                  </li>
+                {{ end }}
+              </ul>
+        </div>
+      </div>
+    </div>
+</section>      
+{{ partial "cta.html" . }}    
+{{ end }}

@@ -77,3 +77,9 @@ theme = "timer-hugo"
         [[params.footer.socialIcon]]
             icon = "ion-social-linkedin"
             url = "#"
+
+# Taxonomies support
+[taxonomies]
+  # Disabling categories
+  #category = "categories"
+  tag = "tags"
