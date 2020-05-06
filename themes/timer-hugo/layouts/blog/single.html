@@ -1,0 +1,69 @@
+{{ define "main" }}
+<!-- Add navigation to blog and home, remove tags and date from header -->
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>{{ .Title }}</h2>
+                    <ol class="breadcrumb list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="{{ .Site.BaseURL }}">
+                                <i class="ion-ios-home"></i>
+                                Home &nbsp; &nbsp;/
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href='{{  "blog" | absURL }}'>
+                                Blog &nbsp; &nbsp;/
+                            </a>
+                        </li>
+                        <li class="active list-inline-item">{{ .Title }}</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End navigation to blog and home -->
+
+<section class="single-post">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <!-- Add information about post -->
+              <div class="blog-content">
+                    <div class="blog-meta" style="margin-bottom:0px;">
+                            <span>{{ dateFormat "Monday, Jan 2, 2006" .Date }} </span>
+                            {{ with .Params.author }}<span>by
+                                {{ . }}
+                            </span>
+                            {{ end }}
+                            <span>
+                            {{ range .Params.tags }}
+                              <!-- we don't show R-bloggers tag -->
+                              {{ if ne . "R-bloggers"}} 
+                                 <a href='{{ printf "tags/%s" . | urlize | absURL}}'>{{.}}</a>,
+                              {{ end }} 
+                            {{ end }}
+                            </span>
+                    </div>
+                </div>
+                <!-- End information about post -->
+                
+                {{ with .Params.image }}
+                <div class="post-img">
+                    <img class="img-fluid" alt="" src="{{ . | absURL }}">
+                </div>
+                {{ end }}
+                <div class="post-content">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{ end }}
