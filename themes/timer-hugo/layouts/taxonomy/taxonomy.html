@@ -1,11 +1,11 @@
 {{ define "main" }}
 
 {{ partial "page-title.html" . }}
-
+<!-- Page for list all categories in site -->
 <section id="blog-full-width">
     <div class="container">
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-12">
                 {{ range .Data.Pages }}
                 <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
                     
@@ -26,10 +26,7 @@
                             {{ end }}
                             <span>
                             {{ range .Params.tags }}
-                              <!-- we don't show R-bloggers tag -->
-                              {{ if ne . "R-bloggers"}} 
-                                 <a href='{{ printf "tags/%s" . | urlize | absURL}}'>{{.}}</a>,
-                              {{ end }} 
+                               <a href='{{ printf "tags/%s" . | urlize | absURL}}'>{{.}}</a>, 
                             {{ end }}
                             </span>
                         </div>
@@ -41,13 +38,6 @@
                 </article>
                 {{ end }}
             </div>
-            
-            <div class="col-md-2 right-sidebar" style="padding-top:60px;">
-            <a href="https://www.r-bloggers.com" title="Go to R-bloggers">
-              <img style="height: 40px;" 
-                   src="https://www.r-bloggers.com/wp-content/uploads/2016/04/R_02_2016-05-01.png" />
-            </a>          
-          </div>
         </div>
     </div>
 </section>
