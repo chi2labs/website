@@ -1,4 +1,5 @@
-baseURL = "/"
+baseURL = "https://www.chi2labs.com/"
+relativeURLs = false
 languageCode = "en-us"
 title = "Chi Square Labs | Learning Analytics Done Right"
 theme = "timer-hugo"
