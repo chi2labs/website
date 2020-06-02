@@ -1,0 +1,40 @@
+---
+title: "Revisiting our 'Ethical Obligation of Knowing' with Learning Analytics"
+description: " "
+author: "John Whitmer, EdD"
+date: 2020-06-01T18:13:14-05:00
+categories: ["R"]
+##image: images/blog/pressure-1.png
+tags: ["learning analytics", "ethics", "research"]
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+```
+
+# The Ethical Obligation of Knowing
+In the early days of our field, John P. Campbell wrote in his doctoral dissertation about an institution's “ethical obligation of knowing” (2007) the insights that could come from predictive analytics about our students.  If organizations had insights that uncovered the capability to analyze the data that they were storing and that they were obligated, ethically if not legally, to do something about it.  Jumping forward a decade, Paul Prinsloo and Sharon Slade, writing from far-away points on the globe, have argued that this issue is “the elephant in the learning analytics room” (2019).  This consistent theme is a critical one for decision-makers considering investing in learning analytics solutions as well as the technical leads building these solutions. 
+
+With over a decade of applying conventional statistics, machine learning, natural language processing and other techniques, we have a portfolio of problems that we know how to “solve” through algorithmic solutions with rigor and reliability.  Predicting student course performance, analyzing discussion forum interactions to discover social networks , analyzing assessment results to identify valid (and problematic) students assessments are all examples of areas with well-established techniques that we can apply with confidence in any learning environment that uses educational technology platforms to a significant degree. 
+
+# Using Analytics to Address COVID-19 Challenges
+Given this successful development of learning analytics, combined with the current fiscal climate that COVID-19 is bringing to academic institutions and state budgets, it is imperative upon all of us to be as effective as possible and apply analysis for accurate insights that can make a difference in student learning.  Providing successful and high-quality online experiences will become a differentiator and quite possibly a survival tactic for many institutions to meet their obligations to students and provide a cohesive learning experience. Personal relationships, intuition, and hunches can provide powerful orientations but must be backed up with evidence and analysis.  
+
+There are many ways to get started with a campus analytics project; build, buy or borrow considerations can help campuses to evaluate potential solutions and ways to get this expertise in a way that meets the culture and resources available at a campus.  Having a trusted internal or external partner that is independent of the outcomes is a key feature for any implementation of analytics, especially when considered in the context of decision-making, given potential biases and influences on the ability of people to make accurate inferences from the data. 
+
+Having a team with a balance of technical expertise, domain knowledge, and above all, vision for the best interests of the student is critical to getting these projects started.  I also strongly advocate for starting with a small-scale “EDA” (exploratory data analysis) project to uncover what is feasible with the data available to a campus; too often I see campuses with good intent getting involved in extensive management planning projects (or data infrastructure efforts) without digging into their data to see what is feasible with the assets that they have at hand.  
+
+Please feel free to reach out if we can help get you started or make advances in your learning analytics efforts. 
+
+# Works Cited
+Campbell, J. (2007). Utilizing student data within the course management system to determine
+undergraduate student academic success: An exploratory study. Retrieved from
+http://proquest.umi.com/pqdweb?did=1417816411&Fmt=7&clientId=11430&RQT=309&VNa
+e=PQD
+
+Prinsloo, P., & Slade, S. (2017). An Elephant in the Learning Analytics Room: The Obligation to
+Act. Proceedings of the Seventh International Learning Analytics & Knowledge Conference, 46
+55. https://doi.org/10.1145/3027385.3027406
+

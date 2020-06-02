@@ -5,7 +5,31 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2020 21:10:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 18:13:14 -0500</lastBuildDate>
+    <item>
+      <title>ethics</title>
+      <link>/tags/ethics/</link>
+      <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
+      <guid>/tags/ethics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning analytics</title>
+      <link>/tags/learning-analytics/</link>
+      <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
+      <guid>/tags/learning-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>/tags/research/</link>
+      <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
+      <guid>/tags/research/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Amazon Cognito</title>
       <link>/tags/amazon-cognito/</link>
@@ -51,14 +75,6 @@
       <link>/tags/non-parametric/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
       <guid>/tags/non-parametric/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research</title>
-      <link>/tags/research/</link>
-      <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
-      <guid>/tags/research/</guid>
       <description></description>
     </item>
     

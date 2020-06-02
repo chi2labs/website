@@ -5,7 +5,40 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2020 21:10:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 18:13:14 -0500</lastBuildDate>
+    <item>
+      <title>Revisiting our &#39;Ethical Obligation of Knowing&#39; with Learning Analytics</title>
+      <link>/blog/ethical_obligation/</link>
+      <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
+      <guid>/blog/ethical_obligation/</guid>
+      <description>
+
+
+&lt;div id=&#34;the-ethical-obligation-of-knowing&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;The Ethical Obligation of Knowing&lt;/h1&gt;
+&lt;p&gt;In the early days of our field, John P. Campbell wrote in his doctoral dissertation about an institution’s “ethical obligation of knowing” (2007) the insights that could come from predictive analytics about our students. If organizations had insights that uncovered the capability to analyze the data that they were storing and that they were obligated, ethically if not legally, to do something about it. Jumping forward a decade, Paul Prinsloo and Sharon Slade, writing from far-away points on the globe, have argued that this issue is “the elephant in the learning analytics room” (2019). This consistent theme is a critical one for decision-makers considering investing in learning analytics solutions as well as the technical leads building these solutions.&lt;/p&gt;
+&lt;p&gt;With over a decade of applying conventional statistics, machine learning, natural language processing and other techniques, we have a portfolio of problems that we know how to “solve” through algorithmic solutions with rigor and reliability. Predicting student course performance, analyzing discussion forum interactions to discover social networks , analyzing assessment results to identify valid (and problematic) students assessments are all examples of areas with well-established techniques that we can apply with confidence in any learning environment that uses educational technology platforms to a significant degree.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;using-analytics-to-address-covid-19-challenges&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Using Analytics to Address COVID-19 Challenges&lt;/h1&gt;
+&lt;p&gt;Given this successful development of learning analytics, combined with the current fiscal climate that COVID-19 is bringing to academic institutions and state budgets, it is imperative upon all of us to be as effective as possible and apply analysis for accurate insights that can make a difference in student learning. Providing successful and high-quality online experiences will become a differentiator and quite possibly a survival tactic for many institutions to meet their obligations to students and provide a cohesive learning experience. Personal relationships, intuition, and hunches can provide powerful orientations but must be backed up with evidence and analysis.&lt;/p&gt;
+&lt;p&gt;There are many ways to get started with a campus analytics project; build, buy or borrow considerations can help campuses to evaluate potential solutions and ways to get this expertise in a way that meets the culture and resources available at a campus. Having a trusted internal or external partner that is independent of the outcomes is a key feature for any implementation of analytics, especially when considered in the context of decision-making, given potential biases and influences on the ability of people to make accurate inferences from the data.&lt;/p&gt;
+&lt;p&gt;Having a team with a balance of technical expertise, domain knowledge, and above all, vision for the best interests of the student is critical to getting these projects started. I also strongly advocate for starting with a small-scale “EDA” (exploratory data analysis) project to uncover what is feasible with the data available to a campus; too often I see campuses with good intent getting involved in extensive management planning projects (or data infrastructure efforts) without digging into their data to see what is feasible with the assets that they have at hand.&lt;/p&gt;
+&lt;p&gt;Please feel free to reach out if we can help get you started or make advances in your learning analytics efforts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;works-cited&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Works Cited&lt;/h1&gt;
+&lt;p&gt;Campbell, J. (2007). Utilizing student data within the course management system to determine
+undergraduate student academic success: An exploratory study. Retrieved from
+&lt;a href=&#34;http://proquest.umi.com/pqdweb?did=1417816411&amp;amp;Fmt=7&amp;amp;clientId=11430&amp;amp;RQT=309&amp;amp;VNa&#34; class=&#34;uri&#34;&gt;http://proquest.umi.com/pqdweb?did=1417816411&amp;amp;Fmt=7&amp;amp;clientId=11430&amp;amp;RQT=309&amp;amp;VNa&lt;/a&gt;
+e=PQD&lt;/p&gt;
+&lt;p&gt;Prinsloo, P., &amp;amp; Slade, S. (2017). An Elephant in the Learning Analytics Room: The Obligation to
+Act. Proceedings of the Seventh International Learning Analytics &amp;amp; Knowledge Conference, 46
+55. &lt;a href=&#34;https://doi.org/10.1145/3027385.3027406&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1145/3027385.3027406&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
     <item>
       <title>R package cognitoR 1.0.1 has been released</title>
       <link>/blog/cognitor/</link>
