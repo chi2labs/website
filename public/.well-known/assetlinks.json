@@ -1,3 +1,5 @@
-{
-test: "test"
-}
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.example.chi2labsstudent",
+               "sha256_cert_fingerprints": ["ED:2A:C2:8A:C6:9B:CD:63:6F:67:5A:4D:3A:DD:A7:73:8A:84:5C:26:E9:44:3F:96:DC:FC:8C:A3:C3:C5:3B:75"] }
+}]
