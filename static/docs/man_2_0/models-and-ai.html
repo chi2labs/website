@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2.3 Models and AI | Chi Square Learning Analytics: Instructor</title>
+  <meta name="description" content="Manual and documentation for Chi2 Learning Analytics" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2.3 Models and AI | Chi Square Learning Analytics: Instructor" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Manual and documentation for Chi2 Learning Analytics" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2.3 Models and AI | Chi Square Learning Analytics: Instructor" />
+  
+  <meta name="twitter:description" content="Manual and documentation for Chi2 Learning Analytics" />
+  
+
+<meta name="author" content="Chi Square Laboratories" />
+
+
+<meta name="date" content="2020-11-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="alerts.html"/>
+<link rel="next" href="settings.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Chi Square Instructor</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="instructor-home-report-ui.html"><a href="instructor-home-report-ui.html"><i class="fa fa-check"></i><b>2</b> Instructor Dashboard</a><ul>
+<li class="chapter" data-level="2.1" data-path="my-courses.html"><a href="my-courses.html"><i class="fa fa-check"></i><b>2.1</b> My Courses</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="my-courses.html"><a href="my-courses.html#information-boxes"><i class="fa fa-check"></i><b>2.1.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="2.1.2" data-path="my-courses.html"><a href="my-courses.html#latest-activity"><i class="fa fa-check"></i><b>2.1.2</b> Latest activity</a></li>
+<li class="chapter" data-level="2.1.3" data-path="my-courses.html"><a href="my-courses.html#risk-profile"><i class="fa fa-check"></i><b>2.1.3</b> Risk profile</a></li>
+<li class="chapter" data-level="2.1.4" data-path="my-courses.html"><a href="my-courses.html#courses"><i class="fa fa-check"></i><b>2.1.4</b> Courses</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="alerts.html"><a href="alerts.html"><i class="fa fa-check"></i><b>2.2</b> Alerts</a></li>
+<li class="chapter" data-level="2.3" data-path="models-and-ai.html"><a href="models-and-ai.html"><i class="fa fa-check"></i><b>2.3</b> Models and AI</a></li>
+<li class="chapter" data-level="2.4" data-path="settings.html"><a href="settings.html"><i class="fa fa-check"></i><b>2.4</b> Settings</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="course-summary.html"><a href="course-summary.html"><i class="fa fa-check"></i><b>3</b> Course Summary</a><ul>
+<li class="chapter" data-level="3.1" data-path="course-summary-infoboxes.html"><a href="course-summary-infoboxes.html"><i class="fa fa-check"></i><b>3.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="3.2" data-path="navigation.html"><a href="navigation.html"><i class="fa fa-check"></i><b>3.2</b> Navigation</a></li>
+<li class="chapter" data-level="3.3" data-path="dwelltime-visualization.html"><a href="dwelltime-visualization.html"><i class="fa fa-check"></i><b>3.3</b> Dwelltime visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="discussion-report.html"><a href="discussion-report.html"><i class="fa fa-check"></i><b>4</b> Discussion Report</a></li>
+<li class="chapter" data-level="5" data-path="gradebook-report.html"><a href="gradebook-report.html"><i class="fa fa-check"></i><b>5</b> Gradebook Report</a></li>
+<li class="chapter" data-level="6" data-path="clickstream-analysis.html"><a href="clickstream-analysis.html"><i class="fa fa-check"></i><b>6</b> Clickstream Analysis</a><ul>
+<li class="chapter" data-level="6.1" data-path="clickstream-analysis-info-boxes.html"><a href="clickstream-analysis-info-boxes.html"><i class="fa fa-check"></i><b>6.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="6.2" data-path="activity-metrics.html"><a href="activity-metrics.html"><i class="fa fa-check"></i><b>6.2</b> Activity Metrics</a></li>
+<li class="chapter" data-level="6.3" data-path="course-activity-by-date.html"><a href="course-activity-by-date.html"><i class="fa fa-check"></i><b>6.3</b> Course Activity by Date</a></li>
+<li class="chapter" data-level="6.4" data-path="density-of-dwell-time.html"><a href="density-of-dwell-time.html"><i class="fa fa-check"></i><b>6.4</b> Density of Dwell Time</a></li>
+<li class="chapter" data-level="6.5" data-path="dwell-time-box-plot.html"><a href="dwell-time-box-plot.html"><i class="fa fa-check"></i><b>6.5</b> Dwell Time Box Plot</a></li>
+<li class="chapter" data-level="6.6" data-path="activity-by-time-of-day.html"><a href="activity-by-time-of-day.html"><i class="fa fa-check"></i><b>6.6</b> Activity by Time of Day</a></li>
+<li class="chapter" data-level="6.7" data-path="first-access-distribution.html"><a href="first-access-distribution.html"><i class="fa fa-check"></i><b>6.7</b> First Access Distribution</a></li>
+<li class="chapter" data-level="6.8" data-path="activity-by-day.html"><a href="activity-by-day.html"><i class="fa fa-check"></i><b>6.8</b> Activity by Day</a></li>
+<li class="chapter" data-level="6.9" data-path="relative-activity-compared-to-self.html"><a href="relative-activity-compared-to-self.html"><i class="fa fa-check"></i><b>6.9</b> Relative Activity Compared to Self</a></li>
+<li class="chapter" data-level="6.10" data-path="a-note-on-dwell-time.html"><a href="a-note-on-dwell-time.html"><i class="fa fa-check"></i><b>6.10</b> A Note on Dwell Time</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="risk-report.html"><a href="risk-report.html"><i class="fa fa-check"></i><b>7</b> Risk Report</a></li>
+<li class="chapter" data-level="8" data-path="common-visualization-types.html"><a href="common-visualization-types.html"><i class="fa fa-check"></i><b>8</b> Common Visualization Types</a><ul>
+<li class="chapter" data-level="8.1" data-path="density-plot.html"><a href="density-plot.html"><i class="fa fa-check"></i><b>8.1</b> Density Plot</a></li>
+<li class="chapter" data-level="8.2" data-path="box-plot.html"><a href="box-plot.html"><i class="fa fa-check"></i><b>8.2</b> Box Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Chi Square Learning Analytics: Instructor</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="models-and-ai" class="section level2">
+<h2><span class="header-section-number">2.3</span> Models and AI</h2>
+<p>Not available for the demo version</p>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="alerts.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="settings.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["manual.pdf", "manual.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
