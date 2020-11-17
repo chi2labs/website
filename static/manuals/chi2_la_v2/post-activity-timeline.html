@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4.4 Post Activity Timeline | Chi Square Learning Analytics</title>
+  <meta name="description" content="Manual and documentation for Chi2 Learning Analytics" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4.4 Post Activity Timeline | Chi Square Learning Analytics" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Manual and documentation for Chi2 Learning Analytics" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4.4 Post Activity Timeline | Chi Square Learning Analytics" />
+  
+  <meta name="twitter:description" content="Manual and documentation for Chi2 Learning Analytics" />
+  
+
+<meta name="author" content="Chi Square Laboratories" />
+
+
+<meta name="date" content="2020-11-17" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="discussion-metrics-summary.html"/>
+<link rel="next" href="discussion-median-response-lag.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Chi Square Instructor</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="instructor-home-report-ui.html"><a href="instructor-home-report-ui.html"><i class="fa fa-check"></i><b>2</b> Instructor Dashboard</a><ul>
+<li class="chapter" data-level="2.1" data-path="my-courses.html"><a href="my-courses.html"><i class="fa fa-check"></i><b>2.1</b> My Courses</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="my-courses.html"><a href="my-courses.html#information-boxes"><i class="fa fa-check"></i><b>2.1.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="2.1.2" data-path="my-courses.html"><a href="my-courses.html#latest-activity"><i class="fa fa-check"></i><b>2.1.2</b> Latest activity</a></li>
+<li class="chapter" data-level="2.1.3" data-path="my-courses.html"><a href="my-courses.html#risk-profile"><i class="fa fa-check"></i><b>2.1.3</b> Risk profile</a></li>
+<li class="chapter" data-level="2.1.4" data-path="my-courses.html"><a href="my-courses.html#courses"><i class="fa fa-check"></i><b>2.1.4</b> Courses</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="alerts.html"><a href="alerts.html"><i class="fa fa-check"></i><b>2.2</b> Alerts</a></li>
+<li class="chapter" data-level="2.3" data-path="models-and-ai.html"><a href="models-and-ai.html"><i class="fa fa-check"></i><b>2.3</b> Models and AI</a></li>
+<li class="chapter" data-level="2.4" data-path="settings.html"><a href="settings.html"><i class="fa fa-check"></i><b>2.4</b> Settings</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="course-summary.html"><a href="course-summary.html"><i class="fa fa-check"></i><b>3</b> Course Summary</a><ul>
+<li class="chapter" data-level="3.1" data-path="course-summary-infoboxes.html"><a href="course-summary-infoboxes.html"><i class="fa fa-check"></i><b>3.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="3.2" data-path="navigation.html"><a href="navigation.html"><i class="fa fa-check"></i><b>3.2</b> Navigation</a></li>
+<li class="chapter" data-level="3.3" data-path="dwelltime-visualization.html"><a href="dwelltime-visualization.html"><i class="fa fa-check"></i><b>3.3</b> Dwelltime visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="discussion-analysis.html"><a href="discussion-analysis.html"><i class="fa fa-check"></i><b>4</b> Discussion Report</a><ul>
+<li class="chapter" data-level="4.1" data-path="discussion-analysis-info-boxes.html"><a href="discussion-analysis-info-boxes.html"><i class="fa fa-check"></i><b>4.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="4.2" data-path="discussion-latest-activity.html"><a href="discussion-latest-activity.html"><i class="fa fa-check"></i><b>4.2</b> Latest Activity</a></li>
+<li class="chapter" data-level="4.3" data-path="discussion-metrics-summary.html"><a href="discussion-metrics-summary.html"><i class="fa fa-check"></i><b>4.3</b> Metrics Summary</a></li>
+<li class="chapter" data-level="4.4" data-path="post-activity-timeline.html"><a href="post-activity-timeline.html"><i class="fa fa-check"></i><b>4.4</b> Post Activity Timeline</a></li>
+<li class="chapter" data-level="4.5" data-path="discussion-median-response-lag.html"><a href="discussion-median-response-lag.html"><i class="fa fa-check"></i><b>4.5</b> Median Response Lag</a></li>
+<li class="chapter" data-level="4.6" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html"><i class="fa fa-check"></i><b>4.6</b> Linguistic Analysis</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html#fres-density-plot"><i class="fa fa-check"></i><b>4.6.1</b> FRES</a></li>
+<li class="chapter" data-level="4.6.2" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html#unigram-bigram"><i class="fa fa-check"></i><b>4.6.2</b> Unigrams and Bigrams</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html"><i class="fa fa-check"></i><b>4.7</b> Sentiment Analysis</a><ul>
+<li class="chapter" data-level="4.7.1" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html#sentiment-plot"><i class="fa fa-check"></i><b>4.7.1</b> Sentiment Plot</a></li>
+<li class="chapter" data-level="4.7.2" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html#multi-dimensional-sentiment"><i class="fa fa-check"></i><b>4.7.2</b> Multidimensional Sentiment Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="4.8" data-path="sentiment-timeline.html"><a href="sentiment-timeline.html"><i class="fa fa-check"></i><b>4.8</b> Timelines</a></li>
+<li class="chapter" data-level="4.9" data-path="social-network-analysis.html"><a href="social-network-analysis.html"><i class="fa fa-check"></i><b>4.9</b> Social Network Analysis</a></li>
+<li class="chapter" data-level="4.10" data-path="discussion-participation.html"><a href="discussion-participation.html"><i class="fa fa-check"></i><b>4.10</b> Participation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="gradebook-report.html"><a href="gradebook-report.html"><i class="fa fa-check"></i><b>5</b> Gradebook Report</a></li>
+<li class="chapter" data-level="6" data-path="clickstream-analysis.html"><a href="clickstream-analysis.html"><i class="fa fa-check"></i><b>6</b> Clickstream Analysis</a><ul>
+<li class="chapter" data-level="6.1" data-path="clickstream-analysis-info-boxes.html"><a href="clickstream-analysis-info-boxes.html"><i class="fa fa-check"></i><b>6.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="6.2" data-path="activity-metrics.html"><a href="activity-metrics.html"><i class="fa fa-check"></i><b>6.2</b> Activity Metrics</a></li>
+<li class="chapter" data-level="6.3" data-path="course-activity-by-date.html"><a href="course-activity-by-date.html"><i class="fa fa-check"></i><b>6.3</b> Course Activity by Date</a></li>
+<li class="chapter" data-level="6.4" data-path="density-of-dwell-time.html"><a href="density-of-dwell-time.html"><i class="fa fa-check"></i><b>6.4</b> Density of Dwell Time</a></li>
+<li class="chapter" data-level="6.5" data-path="dwell-time-box-plot.html"><a href="dwell-time-box-plot.html"><i class="fa fa-check"></i><b>6.5</b> Dwell Time Box Plot</a></li>
+<li class="chapter" data-level="6.6" data-path="activity-by-time-of-day.html"><a href="activity-by-time-of-day.html"><i class="fa fa-check"></i><b>6.6</b> Activity by Time of Day</a></li>
+<li class="chapter" data-level="6.7" data-path="first-access-distribution.html"><a href="first-access-distribution.html"><i class="fa fa-check"></i><b>6.7</b> First Access Distribution</a></li>
+<li class="chapter" data-level="6.8" data-path="activity-by-day.html"><a href="activity-by-day.html"><i class="fa fa-check"></i><b>6.8</b> Activity by Day</a></li>
+<li class="chapter" data-level="6.9" data-path="relative-activity-compared-to-self.html"><a href="relative-activity-compared-to-self.html"><i class="fa fa-check"></i><b>6.9</b> Relative Activity Compared to Self</a></li>
+<li class="chapter" data-level="6.10" data-path="a-note-on-dwell-time.html"><a href="a-note-on-dwell-time.html"><i class="fa fa-check"></i><b>6.10</b> A Note on Dwell Time</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="risk-report.html"><a href="risk-report.html"><i class="fa fa-check"></i><b>7</b> Risk Report</a></li>
+<li class="chapter" data-level="8" data-path="common-visualization-types.html"><a href="common-visualization-types.html"><i class="fa fa-check"></i><b>8</b> Common Visualization Types</a><ul>
+<li class="chapter" data-level="8.1" data-path="density-plot.html"><a href="density-plot.html"><i class="fa fa-check"></i><b>8.1</b> Density Plot</a></li>
+<li class="chapter" data-level="8.2" data-path="box-plot.html"><a href="box-plot.html"><i class="fa fa-check"></i><b>8.2</b> Box Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Chi Square Learning Analytics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="post-activity-timeline" class="section level2">
+<h2><span class="header-section-number">4.4</span> Post Activity Timeline</h2>
+<p>This visualization shows the number of posts by day and the number of unique participants who have participated on a given day.</p>
+<div id="htmlwidget-0581eaf3eeee95f4c301" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0581eaf3eeee95f4c301">{"x":{"data":[{"x":[18233,18233.0840336134,18233.1680672269,18233.2521008403,18233.3361344538,18233.4201680672,18233.5042016807,18233.5882352941,18233.6722689076,18233.756302521,18233.8403361345,18233.9243697479,18234.0084033613,18234.0924369748,18234.1764705882,18234.2605042017,18234.3445378151,18234.4285714286,18234.512605042,18234.5966386555,18234.6806722689,18234.7647058824,18234.8487394958,18234.9327731092,18235.0168067227,18235.1008403361,18235.1848739496,18235.268907563,18235.3529411765,18235.4369747899,18235.5210084034,18235.6050420168,18235.6890756303,18235.7731092437,18235.8571428571,18235.9411764706,18236.025210084,18236.1092436975,18236.1932773109,18236.2773109244,18236.3613445378,18236.4453781513,18236.5294117647,18236.6134453782,18236.6974789916,18236.781512605,18236.8655462185,18236.9495798319,18237.0336134454,18237.1176470588,18237.2016806723,18237.2857142857,18237.3697478992,18237.4537815126,18237.5378151261,18237.6218487395,18237.7058823529,18237.7899159664,18237.8739495798,18237.9579831933,18238.0420168067,18238.1260504202,18238.2100840336,18238.2941176471,18238.3781512605,18238.4621848739,18238.5462184874,18238.6302521008,18238.7142857143,18238.7983193277,18238.8823529412,18238.9663865546,18239.0504201681,18239.1344537815,18239.218487395,18239.3025210084,18239.3865546218,18239.4705882353,18239.5546218487,18239.6386554622,18239.7226890756,18239.8067226891,18239.8907563025,18239.974789916,18240.0588235294,18240.1428571429,18240.2268907563,18240.3109243697,18240.3949579832,18240.4789915966,18240.5630252101,18240.6470588235,18240.731092437,18240.8151260504,18240.8991596639,18240.9831932773,18241.0672268908,18241.1512605042,18241.2352941176,18241.3193277311,18241.4033613445,18241.487394958,18241.5714285714,18241.6554621849,18241.7394957983,18241.8235294118,18241.9075630252,18241.9915966387,18242.0756302521,18242.1596638655,18242.243697479,18242.3277310924,18242.4117647059,18242.4957983193,18242.5798319328,18242.6638655462,18242.7478991597,18242.8319327731,18242.9159663866,18243],"y":[36,35.6280467383113,34.9180479393474,33.8996743938681,32.6025968924936,31.0564862259711,29.2910131850101,27.3358485603202,25.2206631427054,22.9751277226911,20.628913091075,18.2116900385668,15.7531371131909,13.2932268200963,10.9025187571963,8.65722760536875,6.63356804538479,4.9077547580155,3.55600242403199,2.65452572423354,2.27953933931042,2.50725795008308,3.41389623732259,5.07566888180006,7.56848027155922,10.9024527636995,14.9409403150223,19.5274381559907,24.505441517068,29.7184456284889,35.0099457211735,40.2234370253633,45.2024147715215,49.7903741901113,53.8308105114351,57.1672189663115,59.6441239267935,61.185674845626,61.8509912138819,61.7122664348701,60.8416939118625,59.3114670481345,57.1937792469725,54.560823911663,51.4847944456342,48.0378842519034,44.2922867338813,40.3201952948541,36.1938033381084,31.9853042669306,27.7668914847888,23.6107583946017,19.5890983998386,15.7741049037858,12.2379713097299,9.05289102108646,6.29105744086355,4.02466397249358,2.32590401926298,1.26697098445813,0.917159242558356,1.27908550547263,2.28868882263093,3.87900921462572,5.98308670204951,8.53396130537564,11.4646730454199,14.7082619426734,18.1977680177288,21.8662312911785,25.6466917834499,29.4721895154652,33.2763922405967,37.0023604571352,40.6003852168846,44.0209435665944,47.2145125528817,50.1315692227742,52.7225906228782,54.9380537999431,56.7284358007186,58.0442136719082,58.8358644603774,59.053865212808,58.6567026259877,57.6855519412633,56.2303702045108,54.3817449586383,52.230263746736,49.8665141118411,47.3810835969908,44.8645597453308,42.4075300996768,40.1005822031752,38.034303598863,36.2992818297775,34.9772013399879,34.0839471072425,33.6059125939836,33.5293521516647,33.8405201317394,34.5256708856237,35.5710587648309,36.962938120793,38.6875633049635,40.731188668796,43.080068563744,45.7204573411407,48.6411446492241,51.8446329950422,55.3380398905921,59.1284863256441,63.2230932897846,67.6289817731382,72.3532727653044,77.4030872560536,82.7855462351561,88.5077706921269,94.5768816172315,101],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)","dash":"solid"},"hoveron":"points","name":"Posts","legendgroup":"Posts","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[18243,18242,18241,18240,18239,18238,18236,18235,18234,18233],"y":[101,46,36,59,31,1,59,7,16,36],"text":["Date: 2019-12-13<br />Posts: 101","Date: 2019-12-12<br />Posts:  46","Date: 2019-12-11<br />Posts:  36","Date: 2019-12-10<br />Posts:  59","Date: 2019-12-09<br />Posts:  31","Date: 2019-12-08<br />Posts:   1","Date: 2019-12-06<br />Posts:  59","Date: 2019-12-05<br />Posts:   7","Date: 2019-12-04<br />Posts:  16","Date: 2019-12-03<br />Posts:  36"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","opacity":1,"size":11.3385826771654,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)"}},"hoveron":"points","name":"Posts","legendgroup":"Posts","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[18233,18233.0840336134,18233.1680672269,18233.2521008403,18233.3361344538,18233.4201680672,18233.5042016807,18233.5882352941,18233.6722689076,18233.756302521,18233.8403361345,18233.9243697479,18234.0084033613,18234.0924369748,18234.1764705882,18234.2605042017,18234.3445378151,18234.4285714286,18234.512605042,18234.5966386555,18234.6806722689,18234.7647058824,18234.8487394958,18234.9327731092,18235.0168067227,18235.1008403361,18235.1848739496,18235.268907563,18235.3529411765,18235.4369747899,18235.5210084034,18235.6050420168,18235.6890756303,18235.7731092437,18235.8571428571,18235.9411764706,18236.025210084,18236.1092436975,18236.1932773109,18236.2773109244,18236.3613445378,18236.4453781513,18236.5294117647,18236.6134453782,18236.6974789916,18236.781512605,18236.8655462185,18236.9495798319,18237.0336134454,18237.1176470588,18237.2016806723,18237.2857142857,18237.3697478992,18237.4537815126,18237.5378151261,18237.6218487395,18237.7058823529,18237.7899159664,18237.8739495798,18237.9579831933,18238.0420168067,18238.1260504202,18238.2100840336,18238.2941176471,18238.3781512605,18238.4621848739,18238.5462184874,18238.6302521008,18238.7142857143,18238.7983193277,18238.8823529412,18238.9663865546,18239.0504201681,18239.1344537815,18239.218487395,18239.3025210084,18239.3865546218,18239.4705882353,18239.5546218487,18239.6386554622,18239.7226890756,18239.8067226891,18239.8907563025,18239.974789916,18240.0588235294,18240.1428571429,18240.2268907563,18240.3109243697,18240.3949579832,18240.4789915966,18240.5630252101,18240.6470588235,18240.731092437,18240.8151260504,18240.8991596639,18240.9831932773,18241.0672268908,18241.1512605042,18241.2352941176,18241.3193277311,18241.4033613445,18241.487394958,18241.5714285714,18241.6554621849,18241.7394957983,18241.8235294118,18241.9075630252,18241.9915966387,18242.0756302521,18242.1596638655,18242.243697479,18242.3277310924,18242.4117647059,18242.4957983193,18242.5798319328,18242.6638655462,18242.7478991597,18242.8319327731,18242.9159663866,18243],"y":[4,3.74922566049183,3.51362693797756,3.29320383246641,3.08795634393928,2.89788447240606,2.72298821786674,2.56326758032132,2.41872255977574,2.28935315621746,2.17515936965309,2.07614120008263,1.99229915249157,1.92430384764019,1.8748170641473,1.84686871507799,1.84348871349407,1.86770697245732,1.92255340502955,2.01105792426795,2.13625044324187,2.30116087501003,2.50881913263423,2.76225512917625,3.06447857826332,3.4142169164357,3.80064325434066,4.21163793973099,4.63508132035952,5.05885374396087,5.47083555832499,5.85890711118625,6.21094875029747,6.51484082341146,6.75846367827196,6.92969766265332,7.0165151108077,7.01400538744763,6.92932171789751,6.77078589687441,6.54671971907302,6.2654449792074,5.93528347198627,5.56455699211836,5.16158733433042,4.73469629329599,4.2922056637406,3.84243724037298,3.39371281790184,2.95435419103593,2.53268315450171,2.13702150297111,1.77569103117155,1.45701353381176,1.18931080560045,0.980904641253987,0.84011683546274,0.775269182945805,0.794683478411906,0.906681516569775,1.11904316156936,1.4270838750021,1.81365471584547,2.26106481253653,2.75162329351232,3.26763928718726,3.79142192204371,4.30528032649682,4.79152362898362,5.23246095794118,5.61040144179179,5.90765420900587,6.10767346113749,6.21104708666594,6.23155252018025,6.18330647719832,6.0804256732435,5.93702682382427,5.7672266444619,5.5851418506743,5.40488915797938,5.2405852819016,5.10634693794414,5.01629084163246,4.98313834178405,5.00520555839406,5.07231029939249,5.17416053335797,5.30046422886097,5.44092935447395,5.58526387876937,5.72317577031403,5.8443729976927,5.93856352947165,5.99545533422336,6.0047563805203,5.95784213280548,5.85841189215817,5.71568853972271,5.53892101126564,5.33735824255349,5.12024916936237,4.89684272743968,4.67638785256107,4.46813348049307,4.2813285470022,4.12522198785499,4.00906273882199,3.94162489015654,3.92911419767347,3.97687205506606,4.09023920466202,4.27455638877948,4.53516434976192,4.87740382993063,5.30661557161334,5.82814031713776,6.4473188088026,7.16949178898899,8],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,191,196,1)","dash":"solid"},"hoveron":"points","name":"Unique Users","legendgroup":"Unique Users","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[18243,18242,18241,18240,18239,18238,18236,18235,18234,18233],"y":[8,4,6,5,6,1,7,3,2,4],"text":["Date: 2019-12-13<br />Participants: 8","Date: 2019-12-12<br />Participants: 4","Date: 2019-12-11<br />Participants: 6","Date: 2019-12-10<br />Participants: 5","Date: 2019-12-09<br />Participants: 6","Date: 2019-12-08<br />Participants: 1","Date: 2019-12-06<br />Participants: 7","Date: 2019-12-05<br />Participants: 3","Date: 2019-12-04<br />Participants: 2","Date: 2019-12-03<br />Participants: 4"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,191,196,1)","opacity":1,"size":5.66929133858268,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,191,196,1)"}},"hoveron":"points","name":"Unique Users","legendgroup":"Unique Users","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.2283105022831,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[18232.5,18243.5],"tickmode":"array","ticktext":["03-Dec","04-Dec","05-Dec","06-Dec","07-Dec","08-Dec","09-Dec","10-Dec","11-Dec","12-Dec","13-Dec"],"tickvals":[18233,18234,18235,18236,18237,18238,18239,18240,18241,18242,18243],"categoryorder":"array","categoryarray":["03-Dec","04-Dec","05-Dec","06-Dec","07-Dec","08-Dec","09-Dec","10-Dec","11-Dec","12-Dec","13-Dec"],"nticks":null,"ticks":"inside","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":"rgba(229,229,229,1)","linewidth":0,"showgrid":true,"gridcolor":"rgba(229,229,229,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f","color":"rgba(229,229,229,1)"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-4.23596735790691,106.011236540853],"tickmode":"array","ticktext":["0","25","50","75","100"],"tickvals":[0,25,50,75,100],"categoryorder":"array","categoryarray":["0","25","50","75","100"],"nticks":null,"ticks":"inside","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":"rgba(229,229,229,1)","linewidth":0,"showgrid":true,"gridcolor":"rgba(229,229,229,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f","color":"rgba(229,229,229,1)"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"y":-0.3,"orientation":"h"},"hovermode":"closest","barmode":"relative","plot_bgcolor":"rgba(0, 0, 0, 0)","paper_bgcolor":"rgba(0, 0, 0, 0)"},"config":{"doubleClick":"reset","showSendToCloud":false,"modeBarButtonsToRemove":["pan2d","lasso2d","select2d"],"displaylogo":false},"source":"A","attrs":{"46d51487bfa8":{"x":{},"y":{},"colour":{},"type":"scatter"},"46d577ba5cfc":{"x":{},"y":{},"colour":{}},"46d5406e06c9":{"x":{},"y":{},"colour":{}},"46d5398fb7dc":{"x":{},"y":{},"colour":{}}},"cur_data":"46d51487bfa8","visdat":{"46d51487bfa8":["function (y) ","x"],"46d577ba5cfc":["function (y) ","x"],"46d5406e06c9":["function (y) ","x"],"46d5398fb7dc":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="discussion-metrics-summary.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="discussion-median-response-lag.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["manual.pdf", "manual.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
