@@ -25,3 +25,15 @@ members  :
     image : images/team/team-pablo.jpg
     designation : Lead Developer
     description : With over ten years of experience in field, Pablo knows how to scale.  
+    
+  - name : Darko Miletic
+    image : images/team/team-darko.jpg
+    designation : VP Integration and Interoperability
+    description: Darko brings twenty years of experience to bear on the seamless and efficient integration of data-sources.
+    
+  - name : Germán Vitale
+    image : images/team/team-german.jpg
+    designation : UI/UX consultant
+    description: Germán makes our interfaces look great!
+    
+    
