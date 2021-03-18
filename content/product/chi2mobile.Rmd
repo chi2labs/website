@@ -10,7 +10,7 @@ title: Mobile for synchronous courses
 ---
 ### Frustration free feedback for synchronous courses
 
-$\chi^\color{red}2$ mobile allows instructors to elicit information about online teaching in a contiunous manner, indepentently of the video-conferencing system they choose to use. Customizable templates collect required data points during or after each session and linguistic analysis and AI provides insight about concepts learned and those that require review.
+$\chi^\color{red}2$ mobile allows instructors to elicit information and feedback about online teaching in a contiunous manner, indepentently of the video-conferencing system they choose to use. Customizable templates collect required data points during or after each session and linguistic analysis and AI provides insight about concepts learned and those that require review.
 
 
 
