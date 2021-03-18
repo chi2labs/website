@@ -12,6 +12,8 @@
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/product/chi2lms/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chicolorred2-learning-analytics&#34; class=&#34;section level3&#34;&gt;
@@ -30,6 +32,8 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/product/chi2sis/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chicolorred2-sis-analytics&#34; class=&#34;section level3&#34;&gt;
@@ -43,11 +47,30 @@
     </item>
     
     <item>
+      <title>Mobile for synchronous courses</title>
+      <link>/product/chi2mobile/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/product/chi2mobile/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;frustration-free-feedback-for-synchronous-courses&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Frustration free feedback for synchronous courses&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt; mobile allows instructors to elicit information and feedback about online teaching in a contiunous manner, indepentently of the video-conferencing system they choose to use. Customizable templates collect required data points during or after each session and linguistic analysis and AI provides insight about concepts learned and those that require review.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Curriculum Analysis</title>
       <link>/product/chi2curriclum_analysis/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/product/chi2curriclum_analysis/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chi2-curriculum-analysis&#34; class=&#34;section level3&#34;&gt;
@@ -66,6 +89,8 @@
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/product/chi2_meta_predictive/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chicolorred2-meta-predictive-risk-model&#34; class=&#34;section level3&#34;&gt;
@@ -84,6 +109,8 @@
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/product/chi2_classroom/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;analytics-for-face-to-face-and-hybrid-courses&#34; class=&#34;section level3&#34;&gt;
@@ -99,6 +126,8 @@
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/product/chi2_implementation/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chicolorred2-implementation-services&#34; class=&#34;section level3&#34;&gt;
