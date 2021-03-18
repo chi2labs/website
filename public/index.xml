@@ -12,8 +12,6 @@
       <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
       <guid>/blog/ethical_obligation/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;the-ethical-obligation-of-knowing&#34; class=&#34;section level1&#34;&gt;
@@ -47,8 +45,6 @@ Act. Proceedings of the Seventh International Learning Analytics &amp;amp; Knowl
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
       <guid>/blog/cognitor/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Today we are proud to announce that the &lt;em&gt;cognitoR&lt;/em&gt; package has been released on CRAN.
@@ -69,8 +65,6 @@ The package provides password protection for your Shiny apps using the popular &
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/product/chi2lms/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chicolorred2-learning-analytics&#34; class=&#34;section level3&#34;&gt;
@@ -89,8 +83,6 @@ The package provides password protection for your Shiny apps using the popular &
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
       <guid>/blog/not_normal/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In spite of both theorecital and empirical evidence to the contrary, it is often assumed that grades are or should be normally distributed. This has important implications for how we understand and analyze these data-points within learning analytics. In this blog posts I will take a look at some of the theoretical assumtions surrounding the normal distribution and how it applies to grading data, and offer some proposals on what to do when these assumptions are not met.&lt;/p&gt;
@@ -174,8 +166,6 @@ Group.B &amp;lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/product/chi2sis/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chicolorred2-sis-analytics&#34; class=&#34;section level3&#34;&gt;
@@ -194,8 +184,6 @@ Group.B &amp;lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/product/chi2curriclum_analysis/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chi2-curriculum-analysis&#34; class=&#34;section level3&#34;&gt;
@@ -209,13 +197,28 @@ Group.B &amp;lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5
     </item>
     
     <item>
+      <title>Mobile for synchronous courses</title>
+      <link>/product/chi2mobile/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/product/chi2mobile/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;frustration-free-feedback-for-synchronous-courses&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Frustration free feedback for synchronous courses&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\chi^\color{red}2\)&lt;/span&gt; mobile allows instructors to elicit information and feedback about online teaching in a contiunous manner, indepentently of the video-conferencing system they choose to use. Customizable templates collect required data points during or after each session and linguistic analysis and AI provides insight about concepts learned and those that require review.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Meta-predictive Risk Model</title>
       <link>/product/chi2_meta_predictive/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/product/chi2_meta_predictive/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chicolorred2-meta-predictive-risk-model&#34; class=&#34;section level3&#34;&gt;
@@ -234,8 +237,6 @@ Group.B &amp;lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/product/chi2_classroom/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;analytics-for-face-to-face-and-hybrid-courses&#34; class=&#34;section level3&#34;&gt;
@@ -251,8 +252,6 @@ Group.B &amp;lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
       <guid>/product/chi2_implementation/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;chicolorred2-implementation-services&#34; class=&#34;section level3&#34;&gt;
@@ -268,8 +267,6 @@ Group.B &amp;lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/test_page/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;

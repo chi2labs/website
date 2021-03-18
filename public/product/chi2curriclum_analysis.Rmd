@@ -2,7 +2,7 @@
 caption: Unlock the insights hidden in your curriculum
 category:
 - product
-date: "2018-12-30"
+date: "2018-12-31"
 description: Chi Square Curriculum Analysis
 image: images/product/chi2curriculum_analysis.png
 title: Curriculum Analysis
