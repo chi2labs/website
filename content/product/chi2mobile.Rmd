@@ -2,7 +2,7 @@
 caption: Frustration free feedback for synchronous courses
 category:
 - product
-date: "2018-12-31"
+date: "2019-01-01"
 description: Chi Square Mobile
 image: images/product/chi2mobile_1.png
 title: Mobile for synchronous courses 
