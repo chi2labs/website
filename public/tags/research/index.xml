@@ -12,6 +12,8 @@
       <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
       <guid>/blog/ethical_obligation/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;the-ethical-obligation-of-knowing&#34; class=&#34;section level1&#34;&gt;
@@ -45,6 +47,8 @@ Act. Proceedings of the Seventh International Learning Analytics &amp;amp; Knowl
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
       <guid>/blog/not_normal/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In spite of both theorecital and empirical evidence to the contrary, it is often assumed that grades are or should be normally distributed. This has important implications for how we understand and analyze these data-points within learning analytics. In this blog posts I will take a look at some of the theoretical assumtions surrounding the normal distribution and how it applies to grading data, and offer some proposals on what to do when these assumptions are not met.&lt;/p&gt;
