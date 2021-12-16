@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>research | Chi Square Labs | Learning Analytics Done Right</title>
-    <link>/tags/research/</link>
-      <atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.chi2labs.com/tags/research/</link>
+      <atom:link href="https://www.chi2labs.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
     <description>research</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 18:13:14 -0500</lastBuildDate>
     <item>
       <title>Revisiting our &#39;Ethical Obligation of Knowing&#39; with Learning Analytics</title>
-      <link>/blog/ethical_obligation/</link>
+      <link>https://www.chi2labs.com/blog/ethical_obligation/</link>
       <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
-      <guid>/blog/ethical_obligation/</guid>
+      <guid>https://www.chi2labs.com/blog/ethical_obligation/</guid>
       <description>
 
 
@@ -41,9 +41,9 @@ Act. Proceedings of the Seventh International Learning Analytics &amp;amp; Knowl
     
     <item>
       <title>Not Normal!</title>
-      <link>/blog/not_normal/</link>
+      <link>https://www.chi2labs.com/blog/not_normal/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
-      <guid>/blog/not_normal/</guid>
+      <guid>https://www.chi2labs.com/blog/not_normal/</guid>
       <description>
 
 
@@ -89,7 +89,7 @@ Group.B &amp;lt;- c(5, 5.5, 9, 9, 9, 7, 4, 6, 6, 6, 8.5, 8, 10, 5.5, 10, 2, 9, 5
 &lt;div id=&#34;the-rigorous-approach&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;The Rigorous Approach&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Always visualize!&lt;/em&gt; It is typically a good idea to visualize the data we’re analyzing to get a sense for its structure and shape. This will also, incidentally, aid in the detection of outliers, data-entry mistakes and other problems in the data that we would want to deal with before proceeding with the analysis. Here we plot the density of each of the groups using R and ggplot:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/not_normal_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.chi2labs.com/blog/not_normal_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;By looking at this plot we may start to suspect that our samples are not normally distributed. There are some statistical tests that can be used to formally test this. One of them is the &lt;em&gt;Shapiro-Wilk Test&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;This techique tests the null-hypothesis of a normal distribution and calculates a corresponding p-level. It is often recommended to use an alpha-level of .1 when applying this test, to err on the side of caution. It is convenienty available in R:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;shapiro.test(Group.A)&lt;/code&gt;&lt;/pre&gt;

@@ -1,4 +1,4 @@
-enable  : false
+enable  : TRUE
 contactFormTitle    : CONTACT US
 contactFormSubtitle : >
   Use the form below to contact us. 

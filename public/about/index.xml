@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Us | Chi Square Labs | Learning Analytics Done Right</title>
-    <link>/about/</link>
-      <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.chi2labs.com/about/</link>
+      <atom:link href="https://www.chi2labs.com/about/index.xml" rel="self" type="application/rss+xml" />
     <description>About Us</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 12 Jul 2018 18:19:33 +0600</lastBuildDate>
   </channel>

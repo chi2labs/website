@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Service | Chi Square Labs | Learning Analytics Done Right</title>
-    <link>/service/</link>
-      <atom:link href="/service/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.chi2labs.com/service/</link>
+      <atom:link href="https://www.chi2labs.com/service/index.xml" rel="self" type="application/rss+xml" />
     <description>Service</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jul 2018 12:58:14 +0600</lastBuildDate>
   </channel>

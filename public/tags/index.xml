@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Chi Square Labs | Learning Analytics Done Right</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.chi2labs.com/tags/</link>
+      <atom:link href="https://www.chi2labs.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 18:13:14 -0500</lastBuildDate>
     <item>
       <title>ethics</title>
-      <link>/tags/ethics/</link>
+      <link>https://www.chi2labs.com/tags/ethics/</link>
       <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
-      <guid>/tags/ethics/</guid>
+      <guid>https://www.chi2labs.com/tags/ethics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learning analytics</title>
-      <link>/tags/learning-analytics/</link>
+      <link>https://www.chi2labs.com/tags/learning-analytics/</link>
       <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
-      <guid>/tags/learning-analytics/</guid>
+      <guid>https://www.chi2labs.com/tags/learning-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
-      <link>/tags/research/</link>
+      <link>https://www.chi2labs.com/tags/research/</link>
       <pubDate>Mon, 01 Jun 2020 18:13:14 -0500</pubDate>
-      <guid>/tags/research/</guid>
+      <guid>https://www.chi2labs.com/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Amazon Cognito</title>
-      <link>/tags/amazon-cognito/</link>
+      <link>https://www.chi2labs.com/tags/amazon-cognito/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      <guid>/tags/amazon-cognito/</guid>
+      <guid>https://www.chi2labs.com/tags/amazon-cognito/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWS</title>
-      <link>/tags/aws/</link>
+      <link>https://www.chi2labs.com/tags/aws/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      <guid>/tags/aws/</guid>
+      <guid>https://www.chi2labs.com/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://www.chi2labs.com/tags/r/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      <guid>/tags/r/</guid>
+      <guid>https://www.chi2labs.com/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R-bloggers</title>
-      <link>/tags/r-bloggers/</link>
+      <link>https://www.chi2labs.com/tags/r-bloggers/</link>
       <pubDate>Tue, 28 Apr 2020 21:10:14 -0500</pubDate>
-      <guid>/tags/r-bloggers/</guid>
+      <guid>https://www.chi2labs.com/tags/r-bloggers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>methods</title>
-      <link>/tags/methods/</link>
+      <link>https://www.chi2labs.com/tags/methods/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
-      <guid>/tags/methods/</guid>
+      <guid>https://www.chi2labs.com/tags/methods/</guid>
       <description></description>
     </item>
     
     <item>
       <title>non-parametric</title>
-      <link>/tags/non-parametric/</link>
+      <link>https://www.chi2labs.com/tags/non-parametric/</link>
       <pubDate>Tue, 14 Jan 2020 21:13:14 -0500</pubDate>
-      <guid>/tags/non-parametric/</guid>
+      <guid>https://www.chi2labs.com/tags/non-parametric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>meta-predictive</title>
-      <link>/tags/meta-predictive/</link>
+      <link>https://www.chi2labs.com/tags/meta-predictive/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/meta-predictive/</guid>
+      <guid>https://www.chi2labs.com/tags/meta-predictive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>product</title>
-      <link>/tags/product/</link>
+      <link>https://www.chi2labs.com/tags/product/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/product/</guid>
+      <guid>https://www.chi2labs.com/tags/product/</guid>
       <description></description>
     </item>
     

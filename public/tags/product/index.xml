@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>product | Chi Square Labs | Learning Analytics Done Right</title>
-    <link>/tags/product/</link>
-      <atom:link href="/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.chi2labs.com/tags/product/</link>
+      <atom:link href="https://www.chi2labs.com/tags/product/index.xml" rel="self" type="application/rss+xml" />
     <description>product</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Meta-predictive Risk Model</title>
-      <link>/product/chi2_meta_predictive/</link>
+      <link>https://www.chi2labs.com/product/chi2_meta_predictive/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/product/chi2_meta_predictive/</guid>
+      <guid>https://www.chi2labs.com/product/chi2_meta_predictive/</guid>
       <description>
 
 
@@ -26,9 +26,9 @@
     
     <item>
       <title>Classroom Analytics</title>
-      <link>/product/chi2_classroom/</link>
+      <link>https://www.chi2labs.com/product/chi2_classroom/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/product/chi2_classroom/</guid>
+      <guid>https://www.chi2labs.com/product/chi2_classroom/</guid>
       <description>
 
 

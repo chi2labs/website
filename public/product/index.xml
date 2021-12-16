@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Products | Chi Square Labs | Learning Analytics Done Right</title>
-    <link>/product/</link>
-      <atom:link href="/product/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.chi2labs.com/product/</link>
+      <atom:link href="https://www.chi2labs.com/product/index.xml" rel="self" type="application/rss+xml" />
     <description>Products</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Learning Analytics</title>
-      <link>/product/chi2lms/</link>
+      <link>https://www.chi2labs.com/product/chi2lms/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/product/chi2lms/</guid>
+      <guid>https://www.chi2labs.com/product/chi2lms/</guid>
       <description>
 
 
@@ -26,9 +26,9 @@
     
     <item>
       <title>SIS Analytics</title>
-      <link>/product/chi2sis/</link>
+      <link>https://www.chi2labs.com/product/chi2sis/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/product/chi2sis/</guid>
+      <guid>https://www.chi2labs.com/product/chi2sis/</guid>
       <description>
 
 
@@ -44,9 +44,9 @@
     
     <item>
       <title>Curriculum Analysis</title>
-      <link>/product/chi2curriclum_analysis/</link>
+      <link>https://www.chi2labs.com/product/chi2curriclum_analysis/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/product/chi2curriclum_analysis/</guid>
+      <guid>https://www.chi2labs.com/product/chi2curriclum_analysis/</guid>
       <description>
 
 
@@ -62,12 +62,12 @@
     
     <item>
       <title>Mobile for synchronous courses</title>
-      <link>/product/chi2mobile/</link>
+      <link>https://www.chi2labs.com/product/chi2mobile/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/product/chi2mobile/</guid>
+      <guid>https://www.chi2labs.com/product/chi2mobile/</guid>
       <description>
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://www.chi2labs.com/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://www.chi2labs.com/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;frustration-free-feedback-for-synchronous-courses&#34; class=&#34;section level3&#34;&gt;
@@ -79,9 +79,9 @@
     
     <item>
       <title>Meta-predictive Risk Model</title>
-      <link>/product/chi2_meta_predictive/</link>
+      <link>https://www.chi2labs.com/product/chi2_meta_predictive/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/product/chi2_meta_predictive/</guid>
+      <guid>https://www.chi2labs.com/product/chi2_meta_predictive/</guid>
       <description>
 
 
@@ -97,9 +97,9 @@
     
     <item>
       <title>Classroom Analytics</title>
-      <link>/product/chi2_classroom/</link>
+      <link>https://www.chi2labs.com/product/chi2_classroom/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/product/chi2_classroom/</guid>
+      <guid>https://www.chi2labs.com/product/chi2_classroom/</guid>
       <description>
 
 
@@ -112,9 +112,9 @@
     
     <item>
       <title>Implementation Services</title>
-      <link>/product/chi2_implementation/</link>
+      <link>https://www.chi2labs.com/product/chi2_implementation/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/product/chi2_implementation/</guid>
+      <guid>https://www.chi2labs.com/product/chi2_implementation/</guid>
       <description>
 
 
