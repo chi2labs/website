@@ -1,4 +1,4 @@
-enable  : true
+enable  : false
 contactFormTitle    : CONTACT US
 contactFormSubtitle : >
   Use the form below to contact us. 
@@ -6,7 +6,6 @@ mapTitle    : FIND US
 mapSubtitle : >
   Visit our office in New York City. 
 officeAddress1 : 234 West 40th Street, New York, NY 10018
-officeAddress2 : 234 West 40th Street, New York, NY 10018
 mail1 : support@chi2labs.com
 mail2 : info@chi2labs.com
 phone1: +1 646 783 0620
