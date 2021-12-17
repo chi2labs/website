@@ -1,5 +1,5 @@
 ---
-title: "test_page"
+title: "Demo Page"
 author: "Aleksander Dietrichson, PhD"
 date: "January 14, 2020"
 output: html_document
