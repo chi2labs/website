@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3.3 Dwelltime visualization | Chi Square Learning Analytics</title>
+  <meta name="description" content="Manual and documentation for Chi2 Learning Analytics" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3.3 Dwelltime visualization | Chi Square Learning Analytics" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Manual and documentation for Chi2 Learning Analytics" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3.3 Dwelltime visualization | Chi Square Learning Analytics" />
+  
+  <meta name="twitter:description" content="Manual and documentation for Chi2 Learning Analytics" />
+  
+
+<meta name="author" content="Chi Square Laboratories" />
+
+
+<meta name="date" content="2020-11-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="navigation.html"/>
+<link rel="next" href="discussion-analysis.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Chi Square Instructor</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="instructor-home-report-ui.html"><a href="instructor-home-report-ui.html"><i class="fa fa-check"></i><b>2</b> Instructor Dashboard</a><ul>
+<li class="chapter" data-level="2.1" data-path="my-courses.html"><a href="my-courses.html"><i class="fa fa-check"></i><b>2.1</b> My Courses</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="my-courses.html"><a href="my-courses.html#information-boxes"><i class="fa fa-check"></i><b>2.1.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="2.1.2" data-path="my-courses.html"><a href="my-courses.html#latest-activity"><i class="fa fa-check"></i><b>2.1.2</b> Latest activity</a></li>
+<li class="chapter" data-level="2.1.3" data-path="my-courses.html"><a href="my-courses.html#risk-profile"><i class="fa fa-check"></i><b>2.1.3</b> Risk profile</a></li>
+<li class="chapter" data-level="2.1.4" data-path="my-courses.html"><a href="my-courses.html#courses"><i class="fa fa-check"></i><b>2.1.4</b> Courses</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="alerts.html"><a href="alerts.html"><i class="fa fa-check"></i><b>2.2</b> Alerts</a></li>
+<li class="chapter" data-level="2.3" data-path="models-and-ai.html"><a href="models-and-ai.html"><i class="fa fa-check"></i><b>2.3</b> Models and AI</a></li>
+<li class="chapter" data-level="2.4" data-path="settings.html"><a href="settings.html"><i class="fa fa-check"></i><b>2.4</b> Settings</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="course-summary.html"><a href="course-summary.html"><i class="fa fa-check"></i><b>3</b> Course Summary</a><ul>
+<li class="chapter" data-level="3.1" data-path="course-summary-infoboxes.html"><a href="course-summary-infoboxes.html"><i class="fa fa-check"></i><b>3.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="3.2" data-path="navigation.html"><a href="navigation.html"><i class="fa fa-check"></i><b>3.2</b> Navigation</a></li>
+<li class="chapter" data-level="3.3" data-path="dwelltime-visualization.html"><a href="dwelltime-visualization.html"><i class="fa fa-check"></i><b>3.3</b> Dwelltime visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="discussion-analysis.html"><a href="discussion-analysis.html"><i class="fa fa-check"></i><b>4</b> Discussion Report</a><ul>
+<li class="chapter" data-level="4.1" data-path="discussion-analysis-info-boxes.html"><a href="discussion-analysis-info-boxes.html"><i class="fa fa-check"></i><b>4.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="4.2" data-path="discussion-latest-activity.html"><a href="discussion-latest-activity.html"><i class="fa fa-check"></i><b>4.2</b> Latest Activity</a></li>
+<li class="chapter" data-level="4.3" data-path="discussion-metrics-summary.html"><a href="discussion-metrics-summary.html"><i class="fa fa-check"></i><b>4.3</b> Metrics Summary</a></li>
+<li class="chapter" data-level="4.4" data-path="post-activity-timeline.html"><a href="post-activity-timeline.html"><i class="fa fa-check"></i><b>4.4</b> Post Activity Timeline</a></li>
+<li class="chapter" data-level="4.5" data-path="discussion-median-response-lag.html"><a href="discussion-median-response-lag.html"><i class="fa fa-check"></i><b>4.5</b> Median Response Lag</a></li>
+<li class="chapter" data-level="4.6" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html"><i class="fa fa-check"></i><b>4.6</b> Linguistic Analysis</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html#fres-density-plot"><i class="fa fa-check"></i><b>4.6.1</b> FRES</a></li>
+<li class="chapter" data-level="4.6.2" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html#unigram-bigram"><i class="fa fa-check"></i><b>4.6.2</b> Unigrams and Bigrams</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html"><i class="fa fa-check"></i><b>4.7</b> Sentiment Analysis</a><ul>
+<li class="chapter" data-level="4.7.1" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html#sentiment-plot"><i class="fa fa-check"></i><b>4.7.1</b> Sentiment Plot</a></li>
+<li class="chapter" data-level="4.7.2" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html#multi-dimensional-sentiment"><i class="fa fa-check"></i><b>4.7.2</b> Multidimensional Sentiment Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="4.8" data-path="sentiment-timeline.html"><a href="sentiment-timeline.html"><i class="fa fa-check"></i><b>4.8</b> Timelines</a></li>
+<li class="chapter" data-level="4.9" data-path="social-network-analysis.html"><a href="social-network-analysis.html"><i class="fa fa-check"></i><b>4.9</b> Social Network Analysis</a></li>
+<li class="chapter" data-level="4.10" data-path="discussion-participation.html"><a href="discussion-participation.html"><i class="fa fa-check"></i><b>4.10</b> Participation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="gradebook-analysis.html"><a href="gradebook-analysis.html"><i class="fa fa-check"></i><b>5</b> Gradebook Analysis</a><ul>
+<li class="chapter" data-level="5.1" data-path="grabebook-analysis-info-boxes.html"><a href="grabebook-analysis-info-boxes.html"><i class="fa fa-check"></i><b>5.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="5.2" data-path="course-grade-distribution.html"><a href="course-grade-distribution.html"><i class="fa fa-check"></i><b>5.2</b> Course Grade Distribution</a></li>
+<li class="chapter" data-level="5.3" data-path="gradebook-analysis-comparative-distributions.html"><a href="gradebook-analysis-comparative-distributions.html"><i class="fa fa-check"></i><b>5.3</b> Comparative Distributions</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="gradebook-analysis-comparative-distributions.html"><a href="gradebook-analysis-comparative-distributions.html#gradebook-analysis-category-density"><i class="fa fa-check"></i><b>5.3.1</b> Category</a></li>
+<li class="chapter" data-level="5.3.2" data-path="gradebook-analysis-comparative-distributions.html"><a href="gradebook-analysis-comparative-distributions.html#gradebook-analysis-domain-density"><i class="fa fa-check"></i><b>5.3.2</b> Domain</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="course-grades-gradebook-analysis-course-grades.html"><a href="course-grades-gradebook-analysis-course-grades.html"><i class="fa fa-check"></i><b>5.4</b> Course Grades {gradebook-analysis-course-grades}</a></li>
+<li class="chapter" data-level="5.5" data-path="gradebook-analysis-heatmap-of-graded-activities.html"><a href="gradebook-analysis-heatmap-of-graded-activities.html"><i class="fa fa-check"></i><b>5.5</b> Heatmap of graded activities</a></li>
+<li class="chapter" data-level="5.6" data-path="gradebook-analysis-grade-distribution-reliability.html"><a href="gradebook-analysis-grade-distribution-reliability.html"><i class="fa fa-check"></i><b>5.6</b> Grade Distribution Reliability</a><ul>
+<li class="chapter" data-level="5.6.1" data-path="gradebook-analysis-grade-distribution-reliability.html"><a href="gradebook-analysis-grade-distribution-reliability.html#gradebook-analysis-distribution-by-category"><i class="fa fa-check"></i><b>5.6.1</b> Distribution by Category</a></li>
+<li class="chapter" data-level="5.6.2" data-path="gradebook-analysis-grade-distribution-reliability.html"><a href="gradebook-analysis-grade-distribution-reliability.html#relationship-individual-items-with-overall-course-grade-grabebook-analysis-relationship-individual-items-with-overall-course-grade"><i class="fa fa-check"></i><b>5.6.2</b> Relationship Individual Items with Overall Course Grade {grabebook-analysis-relationship-individual-items-with-overall-course-grade}</a></li>
+<li class="chapter" data-level="5.6.3" data-path="gradebook-analysis-grade-distribution-reliability.html"><a href="gradebook-analysis-grade-distribution-reliability.html#grade-variance-analysis-grabebook-analysis-grade-variance-analysis"><i class="fa fa-check"></i><b>5.6.3</b> Grade Variance Analysis {grabebook-analysis-grade-variance-analysis}</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="course-graded-activities.html"><a href="course-graded-activities.html"><i class="fa fa-check"></i><b>5.7</b> Course Graded Activities</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="clickstream-analysis.html"><a href="clickstream-analysis.html"><i class="fa fa-check"></i><b>6</b> Clickstream Analysis</a><ul>
+<li class="chapter" data-level="6.1" data-path="clickstream-analysis-info-boxes.html"><a href="clickstream-analysis-info-boxes.html"><i class="fa fa-check"></i><b>6.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="6.2" data-path="activity-metrics.html"><a href="activity-metrics.html"><i class="fa fa-check"></i><b>6.2</b> Activity Metrics</a></li>
+<li class="chapter" data-level="6.3" data-path="course-activity-by-date.html"><a href="course-activity-by-date.html"><i class="fa fa-check"></i><b>6.3</b> Course Activity by Date</a></li>
+<li class="chapter" data-level="6.4" data-path="density-of-dwell-time.html"><a href="density-of-dwell-time.html"><i class="fa fa-check"></i><b>6.4</b> Density of Dwell Time</a></li>
+<li class="chapter" data-level="6.5" data-path="dwell-time-box-plot.html"><a href="dwell-time-box-plot.html"><i class="fa fa-check"></i><b>6.5</b> Dwell Time Box Plot</a></li>
+<li class="chapter" data-level="6.6" data-path="activity-by-time-of-day.html"><a href="activity-by-time-of-day.html"><i class="fa fa-check"></i><b>6.6</b> Activity by Time of Day</a></li>
+<li class="chapter" data-level="6.7" data-path="first-access-distribution.html"><a href="first-access-distribution.html"><i class="fa fa-check"></i><b>6.7</b> First Access Distribution</a></li>
+<li class="chapter" data-level="6.8" data-path="activity-by-day.html"><a href="activity-by-day.html"><i class="fa fa-check"></i><b>6.8</b> Activity by Day</a></li>
+<li class="chapter" data-level="6.9" data-path="relative-activity-compared-to-self.html"><a href="relative-activity-compared-to-self.html"><i class="fa fa-check"></i><b>6.9</b> Relative Activity Compared to Self</a></li>
+<li class="chapter" data-level="6.10" data-path="a-note-on-dwell-time.html"><a href="a-note-on-dwell-time.html"><i class="fa fa-check"></i><b>6.10</b> A Note on Dwell Time</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="risk-report.html"><a href="risk-report.html"><i class="fa fa-check"></i><b>7</b> Risk Report</a></li>
+<li class="chapter" data-level="8" data-path="common-visualization-types.html"><a href="common-visualization-types.html"><i class="fa fa-check"></i><b>8</b> Common Visualization Types</a><ul>
+<li class="chapter" data-level="8.1" data-path="density-plot.html"><a href="density-plot.html"><i class="fa fa-check"></i><b>8.1</b> Density Plot</a></li>
+<li class="chapter" data-level="8.2" data-path="box-plot.html"><a href="box-plot.html"><i class="fa fa-check"></i><b>8.2</b> Box Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Chi Square Learning Analytics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="dwelltime-visualization" class="section level2">
+<h2><span class="header-section-number">3.3</span> Dwelltime visualization</h2>
+<p>This visualization shows the latest activity –typically for the last couple of weeks– for the active course. The x-axis represents time, and the y-axis the total dwell time for the course.</p>
+<div id="htmlwidget-dd50a0937a77383ab51e" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-dd50a0937a77383ab51e">{"x":{"data":[{"x":[18235,18236,18237,18238,18239,18240,18241,18242,18243,18244,18245,18246,18247,18248,18249],"y":[0,64.02,0.03,2.03,13.54,35.65,24.29,30.65,46.91,3.12,20.92,27.42,49.68,95.91,64.05],"text":["Date: 2019-12-05<br>Dwelltime (Minutes): 0<br>Course: Biology of Aging","Date: 2019-12-06<br>Dwelltime (Minutes): 64.02<br>Course: Biology of Aging","Date: 2019-12-07<br>Dwelltime (Minutes): 0.03<br>Course: Biology of Aging","Date: 2019-12-08<br>Dwelltime (Minutes): 2.03<br>Course: Biology of Aging","Date: 2019-12-09<br>Dwelltime (Minutes): 13.54<br>Course: Biology of Aging","Date: 2019-12-10<br>Dwelltime (Minutes): 35.65<br>Course: Biology of Aging","Date: 2019-12-11<br>Dwelltime (Minutes): 24.29<br>Course: Biology of Aging","Date: 2019-12-12<br>Dwelltime (Minutes): 30.65<br>Course: Biology of Aging","Date: 2019-12-13<br>Dwelltime (Minutes): 46.91<br>Course: Biology of Aging","Date: 2019-12-14<br>Dwelltime (Minutes): 3.12<br>Course: Biology of Aging","Date: 2019-12-15<br>Dwelltime (Minutes): 20.92<br>Course: Biology of Aging","Date: 2019-12-16<br>Dwelltime (Minutes): 27.42<br>Course: Biology of Aging","Date: 2019-12-17<br>Dwelltime (Minutes): 49.68<br>Course: Biology of Aging","Date: 2019-12-18<br>Dwelltime (Minutes): 95.91<br>Course: Biology of Aging","Date: 2019-12-19<br>Dwelltime (Minutes): 64.05<br>Course: Biology of Aging"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(248,118,109,1)","opacity":1,"size":5.66929133858268,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)"}},"hoveron":"points","name":"Biology of Aging","legendgroup":"Biology of Aging","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[18235,18235.1176470588,18235.2352941176,18235.3529411765,18235.4705882353,18235.5882352941,18235.7058823529,18235.8235294118,18235.9411764706,18236.0588235294,18236.1764705882,18236.2941176471,18236.4117647059,18236.5294117647,18236.6470588235,18236.7647058824,18236.8823529412,18237,18237.1176470588,18237.2352941176,18237.3529411765,18237.4705882353,18237.5882352941,18237.7058823529,18237.8235294118,18237.9411764706,18238.0588235294,18238.1764705882,18238.2941176471,18238.4117647059,18238.5294117647,18238.6470588235,18238.7647058824,18238.8823529412,18239,18239.1176470588,18239.2352941176,18239.3529411765,18239.4705882353,18239.5882352941,18239.7058823529,18239.8235294118,18239.9411764706,18240.0588235294,18240.1764705882,18240.2941176471,18240.4117647059,18240.5294117647,18240.6470588235,18240.7647058824,18240.8823529412,18241,18241.1176470588,18241.2352941176,18241.3529411765,18241.4705882353,18241.5882352941,18241.7058823529,18241.8235294118,18241.9411764706,18242.0588235294,18242.1764705882,18242.2941176471,18242.4117647059,18242.5294117647,18242.6470588235,18242.7647058824,18242.8823529412,18243,18243.1176470588,18243.2352941176,18243.3529411765,18243.4705882353,18243.5882352941,18243.7058823529,18243.8235294118,18243.9411764706,18244.0588235294,18244.1764705882,18244.2941176471,18244.4117647059,18244.5294117647,18244.6470588235,18244.7647058824,18244.8823529412,18245,18245.1176470588,18245.2352941176,18245.3529411765,18245.4705882353,18245.5882352941,18245.7058823529,18245.8235294118,18245.9411764706,18246.0588235294,18246.1764705882,18246.2941176471,18246.4117647059,18246.5294117647,18246.6470588235,18246.7647058824,18246.8823529412,18247,18247.1176470588,18247.2352941176,18247.3529411765,18247.4705882353,18247.5882352941,18247.7058823529,18247.8235294118,18247.9411764706,18248.0588235294,18248.1764705882,18248.2941176471,18248.4117647059,18248.5294117647,18248.6470588235,18248.7647058824,18248.8823529412,18249],"y":[0,21.2905902616883,38.2277177394683,51.127279035248,60.3051707490772,66.0772894823838,68.7595318356586,68.6677944099279,66.1179738060447,61.429091236051,54.9920339732114,47.2695553509107,38.7275333147286,29.8318458092585,21.0483707801529,12.8429861719899,5.68156993037939,0.0300000000000011,-3.77083012732882,-5.8799647742018,-6.58143271693283,-6.15926273165026,-4.89748359451143,-3.08012408176611,-0.991212969485354,1.08522096602991,2.87353345811541,4.29092395585359,5.44743562450407,6.46149613855315,7.45153317262626,8.53597440122001,9.83324749896418,11.4617801403364,13.54,16.1367580360002,19.122598340426,22.3184882891764,25.5453952577751,28.624286622136,31.3761297577902,33.621892040622,35.1825408462142,35.8862554594725,35.7270890743477,34.8649687940084,33.4670336307747,31.7004225968338,29.7322747045617,27.7297289661104,25.8599243938705,24.29,23.1610054232925,22.5096328083132,22.346484926029,22.6821645474567,23.5272744436241,24.8924173854857,26.7881961441331,29.2252134904558,32.2078939820408,35.5985632640194,39.1174480697857,42.4785969187471,45.3960583307247,47.5838808251633,48.7561129218116,48.626803140222,46.91,43.4423758996189,38.5510987532787,32.6859603535815,26.2967524937761,19.8332669663722,13.7452955646556,8.4826300811545,4.49506230908049,2.2162468550141,1.70868304614659,2.66371492972528,4.75654936690564,7.66239321901823,11.0564533470979,14.6139366125556,18.0100498763859,20.92,23.0960003027232,24.5982899369193,25.5641145133208,26.1307196425018,26.4353509351369,26.615254001841,26.8076744532649,27.1498579000306,27.7770278951011,28.7779006643376,30.1946851066664,32.0675680631654,34.4367363751176,37.3423768835419,40.8246764297852,44.9238218547977,49.68,55.0904030175781,60.9802443041867,67.1317425681728,73.3271165171474,79.3485848594761,84.9783663027781,89.998679555384,94.191743324975,97.3408511870145,99.2540186626167,99.7639832192976,98.7045571916522,95.9095529142342,91.2127827218429,84.4480589488073,75.449193930172,64.05],"text":"","type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)","dash":"solid"},"hoveron":"points","name":"Biology of Aging","legendgroup":"Biology of Aging","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.2283105022831,"r":7.30593607305936,"b":40.1826484018265,"l":43.1050228310502},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[18234.3,18249.7],"tickmode":"array","ticktext":["Dec 09","Dec 16"],"tickvals":[18239,18246],"categoryorder":"array","categoryarray":["Dec 09","Dec 16"],"nticks":null,"ticks":"inside","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":"rgba(229,229,229,1)","linewidth":0,"showgrid":true,"gridcolor":"rgba(229,229,229,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Date","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f","color":"rgba(229,229,229,1)"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-11.8987035137444,105.081254016109],"tickmode":"array","ticktext":["0","25","50","75","100"],"tickvals":[0,25,50,75,100],"categoryorder":"array","categoryarray":["0","25","50","75","100"],"nticks":null,"ticks":"inside","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":"rgba(229,229,229,1)","linewidth":0,"showgrid":true,"gridcolor":"rgba(229,229,229,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Dwelltime (Minutes)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f","color":"rgba(229,229,229,1)"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"y":-0.3,"orientation":"h"},"hovermode":"closest","barmode":"relative","plot_bgcolor":"rgba(0, 0, 0, 0)","paper_bgcolor":"rgba(0, 0, 0, 0)"},"config":{"doubleClick":"reset","showSendToCloud":false,"modeBarButtonsToRemove":["pan2d","lasso2d","select2d"],"displaylogo":false},"source":"A","attrs":{"1b0a7626266b":{"x":{},"y":{},"colour":{},"text":{},"type":"scatter"},"1b0a2fb4c8d5":{"x":{},"y":{},"colour":{},"text":{},"x.1":{},"y.1":{},"colour.1":{},"text.1":{}}},"cur_data":"1b0a7626266b","visdat":{"1b0a7626266b":["function (y) ","x"],"1b0a2fb4c8d5":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+
+</div>
+<!-- </div> -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="navigation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="discussion-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["manual.pdf", "manual.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

@@ -5,7 +5,23 @@
     <link>https://www.chi2labs.com/</link>
       <atom:link href="https://www.chi2labs.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 18:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Dec 2021 21:10:14 -0500</lastBuildDate>
+    <item>
+      <title>Product Demos</title>
+      <link>https://www.chi2labs.com/demos/</link>
+      <pubDate>Thu, 16 Dec 2021 21:10:14 -0500</pubDate>
+      <guid>https://www.chi2labs.com/demos/</guid>
+      <description>
+&lt;script src=&#34;https://www.chi2labs.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;simulation-chi2-mobile-with-online-dashboard&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Simulation: Chi2 Mobile with Online Dashboard&lt;/h2&gt;
+&lt;p&gt;We’re updating this section. Our current ETA is 12/20/2021. Please check back soon.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
     <item>
       <title>Revisiting our &#39;Ethical Obligation of Knowing&#39; with Learning Analytics</title>
       <link>https://www.chi2labs.com/blog/ethical_obligation/</link>

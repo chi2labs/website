@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5.5 Heatmap of graded activities | Chi Square Learning Analytics</title>
+  <meta name="description" content="Manual and documentation for Chi2 Learning Analytics" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5.5 Heatmap of graded activities | Chi Square Learning Analytics" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Manual and documentation for Chi2 Learning Analytics" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5.5 Heatmap of graded activities | Chi Square Learning Analytics" />
+  
+  <meta name="twitter:description" content="Manual and documentation for Chi2 Learning Analytics" />
+  
+
+<meta name="author" content="Chi Square Laboratories" />
+
+
+<meta name="date" content="2020-11-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="course-grades-gradebook-analysis-course-grades.html"/>
+<link rel="next" href="gradebook-analysis-grade-distribution-reliability.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Chi Square Instructor</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="instructor-home-report-ui.html"><a href="instructor-home-report-ui.html"><i class="fa fa-check"></i><b>2</b> Instructor Dashboard</a><ul>
+<li class="chapter" data-level="2.1" data-path="my-courses.html"><a href="my-courses.html"><i class="fa fa-check"></i><b>2.1</b> My Courses</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="my-courses.html"><a href="my-courses.html#information-boxes"><i class="fa fa-check"></i><b>2.1.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="2.1.2" data-path="my-courses.html"><a href="my-courses.html#latest-activity"><i class="fa fa-check"></i><b>2.1.2</b> Latest activity</a></li>
+<li class="chapter" data-level="2.1.3" data-path="my-courses.html"><a href="my-courses.html#risk-profile"><i class="fa fa-check"></i><b>2.1.3</b> Risk profile</a></li>
+<li class="chapter" data-level="2.1.4" data-path="my-courses.html"><a href="my-courses.html#courses"><i class="fa fa-check"></i><b>2.1.4</b> Courses</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="alerts.html"><a href="alerts.html"><i class="fa fa-check"></i><b>2.2</b> Alerts</a></li>
+<li class="chapter" data-level="2.3" data-path="models-and-ai.html"><a href="models-and-ai.html"><i class="fa fa-check"></i><b>2.3</b> Models and AI</a></li>
+<li class="chapter" data-level="2.4" data-path="settings.html"><a href="settings.html"><i class="fa fa-check"></i><b>2.4</b> Settings</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="course-summary.html"><a href="course-summary.html"><i class="fa fa-check"></i><b>3</b> Course Summary</a><ul>
+<li class="chapter" data-level="3.1" data-path="course-summary-infoboxes.html"><a href="course-summary-infoboxes.html"><i class="fa fa-check"></i><b>3.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="3.2" data-path="navigation.html"><a href="navigation.html"><i class="fa fa-check"></i><b>3.2</b> Navigation</a></li>
+<li class="chapter" data-level="3.3" data-path="dwelltime-visualization.html"><a href="dwelltime-visualization.html"><i class="fa fa-check"></i><b>3.3</b> Dwelltime visualization</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="discussion-analysis.html"><a href="discussion-analysis.html"><i class="fa fa-check"></i><b>4</b> Discussion Report</a><ul>
+<li class="chapter" data-level="4.1" data-path="discussion-analysis-info-boxes.html"><a href="discussion-analysis-info-boxes.html"><i class="fa fa-check"></i><b>4.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="4.2" data-path="discussion-latest-activity.html"><a href="discussion-latest-activity.html"><i class="fa fa-check"></i><b>4.2</b> Latest Activity</a></li>
+<li class="chapter" data-level="4.3" data-path="discussion-metrics-summary.html"><a href="discussion-metrics-summary.html"><i class="fa fa-check"></i><b>4.3</b> Metrics Summary</a></li>
+<li class="chapter" data-level="4.4" data-path="post-activity-timeline.html"><a href="post-activity-timeline.html"><i class="fa fa-check"></i><b>4.4</b> Post Activity Timeline</a></li>
+<li class="chapter" data-level="4.5" data-path="discussion-median-response-lag.html"><a href="discussion-median-response-lag.html"><i class="fa fa-check"></i><b>4.5</b> Median Response Lag</a></li>
+<li class="chapter" data-level="4.6" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html"><i class="fa fa-check"></i><b>4.6</b> Linguistic Analysis</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html#fres-density-plot"><i class="fa fa-check"></i><b>4.6.1</b> FRES</a></li>
+<li class="chapter" data-level="4.6.2" data-path="linguistic-analysis.html"><a href="linguistic-analysis.html#unigram-bigram"><i class="fa fa-check"></i><b>4.6.2</b> Unigrams and Bigrams</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html"><i class="fa fa-check"></i><b>4.7</b> Sentiment Analysis</a><ul>
+<li class="chapter" data-level="4.7.1" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html#sentiment-plot"><i class="fa fa-check"></i><b>4.7.1</b> Sentiment Plot</a></li>
+<li class="chapter" data-level="4.7.2" data-path="sentiment-analysis.html"><a href="sentiment-analysis.html#multi-dimensional-sentiment"><i class="fa fa-check"></i><b>4.7.2</b> Multidimensional Sentiment Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="4.8" data-path="sentiment-timeline.html"><a href="sentiment-timeline.html"><i class="fa fa-check"></i><b>4.8</b> Timelines</a></li>
+<li class="chapter" data-level="4.9" data-path="social-network-analysis.html"><a href="social-network-analysis.html"><i class="fa fa-check"></i><b>4.9</b> Social Network Analysis</a></li>
+<li class="chapter" data-level="4.10" data-path="discussion-participation.html"><a href="discussion-participation.html"><i class="fa fa-check"></i><b>4.10</b> Participation</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="gradebook-analysis.html"><a href="gradebook-analysis.html"><i class="fa fa-check"></i><b>5</b> Gradebook Analysis</a><ul>
+<li class="chapter" data-level="5.1" data-path="grabebook-analysis-info-boxes.html"><a href="grabebook-analysis-info-boxes.html"><i class="fa fa-check"></i><b>5.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="5.2" data-path="course-grade-distribution.html"><a href="course-grade-distribution.html"><i class="fa fa-check"></i><b>5.2</b> Course Grade Distribution</a></li>
+<li class="chapter" data-level="5.3" data-path="gradebook-analysis-comparative-distributions.html"><a href="gradebook-analysis-comparative-distributions.html"><i class="fa fa-check"></i><b>5.3</b> Comparative Distributions</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="gradebook-analysis-comparative-distributions.html"><a href="gradebook-analysis-comparative-distributions.html#gradebook-analysis-category-density"><i class="fa fa-check"></i><b>5.3.1</b> Category</a></li>
+<li class="chapter" data-level="5.3.2" data-path="gradebook-analysis-comparative-distributions.html"><a href="gradebook-analysis-comparative-distributions.html#gradebook-analysis-domain-density"><i class="fa fa-check"></i><b>5.3.2</b> Domain</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="course-grades-gradebook-analysis-course-grades.html"><a href="course-grades-gradebook-analysis-course-grades.html"><i class="fa fa-check"></i><b>5.4</b> Course Grades {gradebook-analysis-course-grades}</a></li>
+<li class="chapter" data-level="5.5" data-path="gradebook-analysis-heatmap-of-graded-activities.html"><a href="gradebook-analysis-heatmap-of-graded-activities.html"><i class="fa fa-check"></i><b>5.5</b> Heatmap of graded activities</a></li>
+<li class="chapter" data-level="5.6" data-path="gradebook-analysis-grade-distribution-reliability.html"><a href="gradebook-analysis-grade-distribution-reliability.html"><i class="fa fa-check"></i><b>5.6</b> Grade Distribution Reliability</a><ul>
+<li class="chapter" data-level="5.6.1" data-path="gradebook-analysis-grade-distribution-reliability.html"><a href="gradebook-analysis-grade-distribution-reliability.html#gradebook-analysis-distribution-by-category"><i class="fa fa-check"></i><b>5.6.1</b> Distribution by Category</a></li>
+<li class="chapter" data-level="5.6.2" data-path="gradebook-analysis-grade-distribution-reliability.html"><a href="gradebook-analysis-grade-distribution-reliability.html#relationship-individual-items-with-overall-course-grade-grabebook-analysis-relationship-individual-items-with-overall-course-grade"><i class="fa fa-check"></i><b>5.6.2</b> Relationship Individual Items with Overall Course Grade {grabebook-analysis-relationship-individual-items-with-overall-course-grade}</a></li>
+<li class="chapter" data-level="5.6.3" data-path="gradebook-analysis-grade-distribution-reliability.html"><a href="gradebook-analysis-grade-distribution-reliability.html#grade-variance-analysis-grabebook-analysis-grade-variance-analysis"><i class="fa fa-check"></i><b>5.6.3</b> Grade Variance Analysis {grabebook-analysis-grade-variance-analysis}</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="course-graded-activities.html"><a href="course-graded-activities.html"><i class="fa fa-check"></i><b>5.7</b> Course Graded Activities</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="clickstream-analysis.html"><a href="clickstream-analysis.html"><i class="fa fa-check"></i><b>6</b> Clickstream Analysis</a><ul>
+<li class="chapter" data-level="6.1" data-path="clickstream-analysis-info-boxes.html"><a href="clickstream-analysis-info-boxes.html"><i class="fa fa-check"></i><b>6.1</b> Information Boxes</a></li>
+<li class="chapter" data-level="6.2" data-path="activity-metrics.html"><a href="activity-metrics.html"><i class="fa fa-check"></i><b>6.2</b> Activity Metrics</a></li>
+<li class="chapter" data-level="6.3" data-path="course-activity-by-date.html"><a href="course-activity-by-date.html"><i class="fa fa-check"></i><b>6.3</b> Course Activity by Date</a></li>
+<li class="chapter" data-level="6.4" data-path="density-of-dwell-time.html"><a href="density-of-dwell-time.html"><i class="fa fa-check"></i><b>6.4</b> Density of Dwell Time</a></li>
+<li class="chapter" data-level="6.5" data-path="dwell-time-box-plot.html"><a href="dwell-time-box-plot.html"><i class="fa fa-check"></i><b>6.5</b> Dwell Time Box Plot</a></li>
+<li class="chapter" data-level="6.6" data-path="activity-by-time-of-day.html"><a href="activity-by-time-of-day.html"><i class="fa fa-check"></i><b>6.6</b> Activity by Time of Day</a></li>
+<li class="chapter" data-level="6.7" data-path="first-access-distribution.html"><a href="first-access-distribution.html"><i class="fa fa-check"></i><b>6.7</b> First Access Distribution</a></li>
+<li class="chapter" data-level="6.8" data-path="activity-by-day.html"><a href="activity-by-day.html"><i class="fa fa-check"></i><b>6.8</b> Activity by Day</a></li>
+<li class="chapter" data-level="6.9" data-path="relative-activity-compared-to-self.html"><a href="relative-activity-compared-to-self.html"><i class="fa fa-check"></i><b>6.9</b> Relative Activity Compared to Self</a></li>
+<li class="chapter" data-level="6.10" data-path="a-note-on-dwell-time.html"><a href="a-note-on-dwell-time.html"><i class="fa fa-check"></i><b>6.10</b> A Note on Dwell Time</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="risk-report.html"><a href="risk-report.html"><i class="fa fa-check"></i><b>7</b> Risk Report</a></li>
+<li class="chapter" data-level="8" data-path="common-visualization-types.html"><a href="common-visualization-types.html"><i class="fa fa-check"></i><b>8</b> Common Visualization Types</a><ul>
+<li class="chapter" data-level="8.1" data-path="density-plot.html"><a href="density-plot.html"><i class="fa fa-check"></i><b>8.1</b> Density Plot</a></li>
+<li class="chapter" data-level="8.2" data-path="box-plot.html"><a href="box-plot.html"><i class="fa fa-check"></i><b>8.2</b> Box Plot</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Chi Square Learning Analytics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="gradebook-analysis-heatmap-of-graded-activities" class="section level2">
+<h2><span class="header-section-number">5.5</span> Heatmap of graded activities</h2>
+<p>This visualization shows a heatmap of the graded activities in the course.</p>
+<div id="htmlwidget-0c98f69fde180e9e4fba" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0c98f69fde180e9e4fba">{"x":{"data":[{"x":[1,2,3,4],"y":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],"z":[[0,null,0.229508196721311,null],[0.471311475409836,null,0.524590163934426,null],[null,0.360655737704918,null,0.614754098360656],[null,0.467213114754098,null,0.471311475409836],[0.573770491803279,null,0.614754098360656,null],[0.655737704918033,null,0.450819672131147,null],[0.266393442622951,null,0.459016393442623,null],[0.450819672131147,null,0.401639344262295,null],[null,0.327868852459016,null,0.55327868852459],[0.922131147540984,null,0.778688524590164,null],[null,0.713114754098361,null,0.942622950819672],[0.778688524590164,null,1,null],[null,0.909836065573771,null,0.881147540983607],[null,0.877049180327869,null,0.655737704918033],[null,0.89344262295082,null,0.983606557377049],[null,0.901639344262295,null,0.778688524590164],[null,0.860655737704918,null,0.819672131147541]],"text":[["Activity: 94221<br />Participant: M. Meehan<br />Standard Grade: 48%","Activity: 106284<br />Participant: M. Meehan<br />Standard Grade: NA%","Activity: 152591<br />Participant: M. Meehan<br />Standard Grade: 59%","Activity: 521005<br />Participant: M. Meehan<br />Standard Grade: NA%"],["Activity: 94221<br />Participant: N. Field<br />Standard Grade: 71%",null,"Activity: 152591<br />Participant: N. Field<br />Standard Grade: 74%",null],[null,"Activity: 106284<br />Participant: K. Reichler<br />Standard Grade: 66%",null,"Activity: 521005<br />Participant: K. Reichler<br />Standard Grade: 78%"],[null,"Activity: 106284<br />Participant: A. Tang<br />Standard Grade: 71%",null,"Activity: 521005<br />Participant: A. Tang<br />Standard Grade: 71%"],["Activity: 94221<br />Participant: T. Ham<br />Standard Grade: 76%",null,"Activity: 152591<br />Participant: T. Ham<br />Standard Grade: 78%",null],["Activity: 94221<br />Participant: M. Searcy<br />Standard Grade: 80%","Activity: 106284<br />Participant: M. Searcy<br />Standard Grade: NA%","Activity: 152591<br />Participant: M. Searcy<br />Standard Grade: 70%","Activity: 521005<br />Participant: M. Searcy<br />Standard Grade: NA%"],["Activity: 94221<br />Participant: S. Bingham<br />Standard Grade: 61%",null,"Activity: 152591<br />Participant: S. Bingham<br />Standard Grade: 70%",null],["Activity: 94221<br />Participant: B. Ryan<br />Standard Grade: 70%",null,"Activity: 152591<br />Participant: B. Ryan<br />Standard Grade: 68%",null],[null,"Activity: 106284<br />Participant: C. Tyagi<br />Standard Grade: 64%",null,"Activity: 521005<br />Participant: C. Tyagi<br />Standard Grade: 75%"],["Activity: 94221<br />Participant: T. Cattich<br />Standard Grade: 93%",null,"Activity: 152591<br />Participant: T. Cattich<br />Standard Grade: 86%",null],[null,"Activity: 106284<br />Participant: J. Withers<br />Standard Grade: 83%",null,"Activity: 521005<br />Participant: J. Withers<br />Standard Grade: 94%"],["Activity: 94221<br />Participant: A. Ediger<br />Standard Grade: 86%",null,"Activity: 152591<br />Participant: A. Ediger<br />Standard Grade: 97%",null],[null,"Activity: 106284<br />Participant: E. Vigil<br />Standard Grade: 92%",null,"Activity: 521005<br />Participant: E. Vigil<br />Standard Grade: 91%"],[null,"Activity: 106284<br />Participant: S. Crouse<br />Standard Grade: 91%",null,"Activity: 521005<br />Participant: S. Crouse<br />Standard Grade: 80%"],[null,"Activity: 106284<br />Participant: C. Rock<br />Standard Grade: 92%",null,"Activity: 521005<br />Participant: C. Rock<br />Standard Grade: 96%"],[null,"Activity: 106284<br />Participant: G. Dunford<br />Standard Grade: 92%",null,"Activity: 521005<br />Participant: G. Dunford<br />Standard Grade: 86%"],[null,"Activity: 106284<br />Participant: H. Powell<br />Standard Grade: 90%",null,"Activity: 521005<br />Participant: H. Powell<br />Standard Grade: 88%"]],"colorscale":[[0,"#56B1F7"],[0.229508196721311,"#4590CA"],[0.266393442622951,"#438AC3"],[0.327868852459016,"#3F82B8"],[0.360655737704918,"#3C7DB2"],[0.401639344262295,"#3978AA"],[0.450819672131147,"#3671A1"],[0.459016393442623,"#36709F"],[0.467213114754098,"#356F9E"],[0.471311475409836,"#356E9D"],[0.524590163934426,"#316794"],[0.55327868852459,"#2F638E"],[0.573770491803279,"#2E608B"],[0.614754098360656,"#2B5B83"],[0.655737704918033,"#28567C"],[0.713114754098361,"#254E72"],[0.778688524590164,"#214667"],[0.819672131147541,"#1E4160"],[0.860655737704918,"#1B3C59"],[0.877049180327869,"#1A3A57"],[0.881147540983607,"#1A3956"],[0.89344262295082,"#193854"],[0.901639344262295,"#193753"],[0.909836065573771,"#183651"],[0.922131147540984,"#18344F"],[0.942622950819672,"#16324C"],[0.983606557377049,"#142D46"],[1,"#132B43"]],"type":"heatmap","showscale":false,"autocolorscale":false,"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1],"y":[1],"name":"99_2e99b77363cc6c366480a55ccae94bbf","type":"scatter","mode":"markers","opacity":0,"hoverinfo":"skip","showlegend":false,"marker":{"color":[0,1],"colorscale":[[0,"#56B1F7"],[0.00334448160535118,"#56B1F6"],[0.00668896321070237,"#56B0F6"],[0.0100334448160536,"#55B0F5"],[0.0133779264214047,"#55AFF4"],[0.0167224080267558,"#55AFF4"],[0.020066889632107,"#55AEF3"],[0.0234113712374582,"#54AEF2"],[0.0267558528428094,"#54ADF2"],[0.0301003344481605,"#54ADF1"],[0.0334448160535117,"#54ACF0"],[0.0367892976588629,"#53ACF0"],[0.0401337792642141,"#53ABEF"],[0.0434782608695653,"#53ABEE"],[0.0468227424749163,"#53AAEE"],[0.0501672240802676,"#52AAED"],[0.0535117056856187,"#52A9EC"],[0.05685618729097,"#52A9EC"],[0.0602006688963211,"#52A8EB"],[0.0635451505016722,"#51A8EA"],[0.0668896321070235,"#51A7EA"],[0.0702341137123745,"#51A7E9"],[0.0735785953177258,"#51A6E8"],[0.0769230769230769,"#50A6E8"],[0.0802675585284282,"#50A5E7"],[0.0836120401337793,"#50A5E7"],[0.0869565217391306,"#50A4E6"],[0.0903010033444816,"#4FA4E5"],[0.0936454849498327,"#4FA3E5"],[0.096989966555184,"#4FA3E4"],[0.100334448160535,"#4FA2E3"],[0.103678929765886,"#4EA2E3"],[0.107023411371237,"#4EA1E2"],[0.110367892976589,"#4EA1E1"],[0.11371237458194,"#4EA0E1"],[0.117056856187291,"#4DA0E0"],[0.120401337792642,"#4D9FDF"],[0.123745819397993,"#4D9FDF"],[0.127090301003345,"#4D9EDE"],[0.130434782608696,"#4D9EDD"],[0.133779264214047,"#4C9DDD"],[0.137123745819398,"#4C9DDC"],[0.140468227424749,"#4C9CDB"],[0.1438127090301,"#4C9CDB"],[0.147157190635451,"#4B9BDA"],[0.150501672240803,"#4B9BDA"],[0.153846153846154,"#4B9BD9"],[0.157190635451505,"#4B9AD8"],[0.160535117056856,"#4A9AD8"],[0.163879598662207,"#4A99D7"],[0.167224080267559,"#4A99D6"],[0.17056856187291,"#4A98D6"],[0.173913043478261,"#4998D5"],[0.177257525083612,"#4997D4"],[0.180602006688963,"#4997D4"],[0.183946488294314,"#4996D3"],[0.187290969899666,"#4896D2"],[0.190635451505017,"#4895D2"],[0.193979933110368,"#4895D1"],[0.197324414715719,"#4894D0"],[0.20066889632107,"#4894D0"],[0.204013377926421,"#4793CF"],[0.207357859531772,"#4793CF"],[0.210702341137124,"#4792CE"],[0.214046822742475,"#4792CD"],[0.217391304347826,"#4691CD"],[0.220735785953177,"#4691CC"],[0.224080267558529,"#4690CB"],[0.22742474916388,"#4690CB"],[0.230769230769231,"#458FCA"],[0.234113712374582,"#458FC9"],[0.237458193979933,"#458FC9"],[0.240802675585284,"#458EC8"],[0.244147157190635,"#448EC8"],[0.247491638795987,"#448DC7"],[0.250836120401338,"#448DC6"],[0.254180602006689,"#448CC6"],[0.25752508361204,"#438CC5"],[0.260869565217391,"#438BC4"],[0.264214046822743,"#438BC4"],[0.267558528428094,"#438AC3"],[0.270903010033445,"#438AC2"],[0.274247491638796,"#4289C2"],[0.277591973244147,"#4289C1"],[0.280936454849498,"#4288C1"],[0.28428093645485,"#4288C0"],[0.287625418060201,"#4187BF"],[0.290969899665552,"#4187BF"],[0.294314381270903,"#4186BE"],[0.297658862876254,"#4186BD"],[0.301003344481605,"#4086BD"],[0.304347826086956,"#4085BC"],[0.307692307692308,"#4085BB"],[0.311036789297659,"#4084BB"],[0.31438127090301,"#4084BA"],[0.317725752508361,"#3F83BA"],[0.321070234113712,"#3F83B9"],[0.324414715719064,"#3F82B8"],[0.327759197324415,"#3F82B8"],[0.331103678929766,"#3E81B7"],[0.334448160535117,"#3E81B6"],[0.337792642140468,"#3E80B6"],[0.341137123745819,"#3E80B5"],[0.344481605351171,"#3D7FB5"],[0.347826086956522,"#3D7FB4"],[0.351170568561873,"#3D7FB3"],[0.354515050167224,"#3D7EB3"],[0.357859531772575,"#3C7EB2"],[0.361204013377927,"#3C7DB1"],[0.364548494983278,"#3C7DB1"],[0.367892976588629,"#3C7CB0"],[0.37123745819398,"#3C7CB0"],[0.374581939799331,"#3B7BAF"],[0.377926421404682,"#3B7BAE"],[0.381270903010033,"#3B7AAE"],[0.384615384615385,"#3B7AAD"],[0.387959866220736,"#3A79AC"],[0.391304347826087,"#3A79AC"],[0.394648829431438,"#3A79AB"],[0.397993311036789,"#3A78AB"],[0.40133779264214,"#3978AA"],[0.404682274247492,"#3977A9"],[0.408026755852843,"#3977A9"],[0.411371237458194,"#3976A8"],[0.414715719063545,"#3976A8"],[0.418060200668896,"#3875A7"],[0.421404682274248,"#3875A6"],[0.424749163879599,"#3874A6"],[0.42809364548495,"#3874A5"],[0.431438127090301,"#3773A4"],[0.434782608695652,"#3773A4"],[0.438127090301003,"#3773A3"],[0.441471571906354,"#3772A3"],[0.444816053511706,"#3772A2"],[0.448160535117057,"#3671A1"],[0.451505016722408,"#3671A1"],[0.454849498327759,"#3670A0"],[0.45819397993311,"#3670A0"],[0.461538461538462,"#356F9F"],[0.464882943143813,"#356F9E"],[0.468227424749164,"#356E9E"],[0.471571906354515,"#356E9D"],[0.474916387959866,"#346E9D"],[0.478260869565217,"#346D9C"],[0.481605351170569,"#346D9B"],[0.48494983277592,"#346C9B"],[0.488294314381271,"#346C9A"],[0.491638795986622,"#336B99"],[0.494983277591973,"#336B99"],[0.498327759197324,"#336A98"],[0.501672240802676,"#336A98"],[0.505016722408027,"#326997"],[0.508361204013378,"#326996"],[0.511705685618729,"#326996"],[0.51505016722408,"#326895"],[0.518394648829431,"#326895"],[0.521739130434783,"#316794"],[0.525083612040134,"#316793"],[0.528428093645485,"#316693"],[0.531772575250836,"#316692"],[0.535117056856187,"#306592"],[0.538461538461538,"#306591"],[0.54180602006689,"#306590"],[0.545150501672241,"#306490"],[0.548494983277592,"#30648F"],[0.551839464882943,"#2F638F"],[0.555183946488294,"#2F638E"],[0.558528428093646,"#2F628D"],[0.561872909698997,"#2F628D"],[0.565217391304348,"#2E618C"],[0.568561872909699,"#2E618C"],[0.57190635451505,"#2E618B"],[0.575250836120401,"#2E608A"],[0.578595317725752,"#2E608A"],[0.581939799331104,"#2D5F89"],[0.585284280936455,"#2D5F89"],[0.588628762541806,"#2D5E88"],[0.591973244147157,"#2D5E87"],[0.595317725752508,"#2C5D87"],[0.59866220735786,"#2C5D86"],[0.602006688963211,"#2C5D86"],[0.605351170568562,"#2C5C85"],[0.608695652173913,"#2C5C85"],[0.612040133779264,"#2B5B84"],[0.615384615384615,"#2B5B83"],[0.618729096989967,"#2B5A83"],[0.622073578595318,"#2B5A82"],[0.625418060200669,"#2A5982"],[0.62876254180602,"#2A5981"],[0.632107023411371,"#2A5980"],[0.635451505016722,"#2A5880"],[0.638795986622073,"#2A587F"],[0.642140468227425,"#29577F"],[0.645484949832776,"#29577E"],[0.648829431438127,"#29567D"],[0.652173913043478,"#29567D"],[0.655518394648829,"#28567C"],[0.658862876254181,"#28557C"],[0.662207357859532,"#28557B"],[0.665551839464883,"#28547B"],[0.668896321070234,"#28547A"],[0.672240802675585,"#275379"],[0.675585284280936,"#275379"],[0.678929765886288,"#275278"],[0.682274247491639,"#275278"],[0.68561872909699,"#275277"],[0.688963210702341,"#265176"],[0.692307692307692,"#265176"],[0.695652173913044,"#265075"],[0.698996655518395,"#265075"],[0.702341137123746,"#254F74"],[0.705685618729097,"#254F74"],[0.709030100334448,"#254F73"],[0.712374581939799,"#254E72"],[0.71571906354515,"#254E72"],[0.719063545150502,"#244D71"],[0.722408026755853,"#244D71"],[0.725752508361204,"#244C70"],[0.729096989966555,"#244C70"],[0.732441471571906,"#244C6F"],[0.735785953177257,"#234B6E"],[0.739130434782609,"#234B6E"],[0.74247491638796,"#234A6D"],[0.745819397993311,"#234A6D"],[0.749163879598662,"#224A6C"],[0.752508361204014,"#22496C"],[0.755852842809365,"#22496B"],[0.759197324414716,"#22486A"],[0.762541806020067,"#22486A"],[0.765886287625418,"#214769"],[0.769230769230769,"#214769"],[0.77257525083612,"#214768"],[0.775919732441471,"#214668"],[0.779264214046823,"#214667"],[0.782608695652174,"#204566"],[0.785953177257525,"#204566"],[0.789297658862876,"#204465"],[0.792642140468227,"#204465"],[0.795986622073579,"#1F4464"],[0.79933110367893,"#1F4364"],[0.802675585284281,"#1F4363"],[0.806020066889632,"#1F4263"],[0.809364548494983,"#1F4262"],[0.812709030100335,"#1E4261"],[0.816053511705686,"#1E4161"],[0.819397993311037,"#1E4160"],[0.822742474916388,"#1E4060"],[0.826086956521739,"#1E405F"],[0.82943143812709,"#1D3F5F"],[0.832775919732441,"#1D3F5E"],[0.836120401337793,"#1D3F5D"],[0.839464882943144,"#1D3E5D"],[0.842809364548495,"#1D3E5C"],[0.846153846153846,"#1C3D5C"],[0.849498327759197,"#1C3D5B"],[0.852842809364548,"#1C3D5B"],[0.8561872909699,"#1C3C5A"],[0.859531772575251,"#1C3C5A"],[0.862876254180602,"#1B3B59"],[0.866220735785953,"#1B3B59"],[0.869565217391304,"#1B3B58"],[0.872909698996655,"#1B3A57"],[0.876254180602007,"#1A3A57"],[0.879598662207358,"#1A3956"],[0.882943143812709,"#1A3956"],[0.88628762541806,"#1A3955"],[0.889632107023412,"#1A3855"],[0.892976588628763,"#193854"],[0.896321070234114,"#193754"],[0.899665551839465,"#193753"],[0.903010033444816,"#193652"],[0.906354515050167,"#193652"],[0.909698996655518,"#183651"],[0.913043478260869,"#183551"],[0.916387959866221,"#183550"],[0.919732441471572,"#183450"],[0.923076923076923,"#18344F"],[0.926421404682274,"#17344F"],[0.929765886287625,"#17334E"],[0.933110367892977,"#17334E"],[0.936454849498328,"#17324D"],[0.939799331103679,"#17324D"],[0.94314381270903,"#16324C"],[0.946488294314381,"#16314B"],[0.949832775919733,"#16314B"],[0.953177257525084,"#16304A"],[0.956521739130435,"#16304A"],[0.959866220735786,"#153049"],[0.963210702341137,"#152F49"],[0.966555183946488,"#152F48"],[0.969899665551839,"#152F48"],[0.973244147157191,"#152E47"],[0.976588628762542,"#142E47"],[0.979933110367893,"#142D46"],[0.983277591973244,"#142D46"],[0.986622073578595,"#142D45"],[0.989966555183946,"#142C45"],[0.993311036789298,"#132C44"],[0.996655518394649,"#132B44"],[1,"#132B43"]],"colorbar":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"thickness":23.04,"title":"Standard Grade","titlefont":{"color":null,"family":null,"size":0},"tickmode":"array","ticktext":["50%","60%","70%","80%","90%"],"tickvals":[0.0409836065573771,0.245901639344262,0.450819672131147,0.655737704918033,0.860655737704918],"tickfont":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"ticklen":2,"len":0.5}},"xaxis":"x","yaxis":"y","frame":null}],"layout":{"margin":{"t":26.2283105022831,"r":7.30593607305936,"b":46.027397260274,"l":75.2511415525114},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,4.6],"tickmode":"array","ticktext":["94221","106284","152591","521005"],"tickvals":[1,2,3,4],"categoryorder":"array","categoryarray":["94221","106284","152591","521005"],"nticks":null,"ticks":"inside","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":5.84474885844749},"tickangle":-90,"showline":false,"linecolor":"rgba(229,229,229,1)","linewidth":0,"showgrid":true,"gridcolor":"rgba(229,229,229,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Graded Activity","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f","color":"rgba(229,229,229,1)"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,17.6],"tickmode":"array","ticktext":["M. Meehan","N. Field","K. Reichler","A. Tang","T. Ham","M. Searcy","S. Bingham","B. Ryan","C. Tyagi","T. Cattich","J. Withers","A. Ediger","E. Vigil","S. Crouse","C. Rock","G. Dunford","H. Powell"],"tickvals":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],"categoryorder":"array","categoryarray":["M. Meehan","N. Field","K. Reichler","A. Tang","T. Ham","M. Searcy","S. Bingham","B. Ryan","C. Tyagi","T. Cattich","J. Withers","A. Ediger","E. Vigil","S. Crouse","C. Rock","G. Dunford","H. Powell"],"nticks":null,"ticks":"inside","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":"rgba(229,229,229,1)","linewidth":0,"showgrid":true,"gridcolor":"rgba(229,229,229,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f","color":"rgba(229,229,229,1)"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"y":-0.3,"orientation":"h"},"hovermode":"closest","barmode":"relative","plot_bgcolor":"rgba(0, 0, 0, 0)","paper_bgcolor":"rgba(0, 0, 0, 0)"},"config":{"doubleClick":"reset","showSendToCloud":false,"modeBarButtonsToRemove":["pan2d","lasso2d","select2d"],"displaylogo":false},"source":"A","attrs":{"1b0a42c75197":{"x":{},"y":{},"text":{},"fill":{},"type":"heatmap"}},"cur_data":"1b0a42c75197","visdat":{"1b0a42c75197":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="course-grades-gradebook-analysis-course-grades.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="gradebook-analysis-grade-distribution-reliability.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["manual.pdf", "manual.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
