@@ -11,5 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Simulation: Chi2 Mobile with Online Dashboard
 
-We're updating this section. Our current ETA is 12/20/2021. Please check back soon. 
+Below are some links to relevant resources with demo data. Please contact us for a guided tour.
+
+* [Andoid App](https://play.google.com/store/apps/details?id=chi2labs.chi2mobile) on Google Playstore 
+* [PWA](https://chi2beta.web.app/) (for iPhone etc.)
+* [Instructor Dashboard](https://chi2.shinyapps.io/chi2WebInstructor/) (browser-based)
 
