@@ -5,7 +5,7 @@
     <link>https://www.chi2labs.com/</link>
       <atom:link href="https://www.chi2labs.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Chi Square Labs | Learning Analytics Done Right</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 16 Dec 2021 21:10:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 18:13:14 -0500</lastBuildDate>
     <item>
       <title>Product Demos</title>
       <link>https://www.chi2labs.com/demos/</link>
@@ -17,7 +17,12 @@
 
 &lt;div id=&#34;simulation-chi2-mobile-with-online-dashboard&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Simulation: Chi2 Mobile with Online Dashboard&lt;/h2&gt;
-&lt;p&gt;We’re updating this section. Our current ETA is 12/20/2021. Please check back soon.&lt;/p&gt;
+&lt;p&gt;Below are some links to relevant resources with demo data. Please contact us for a guided tour.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=chi2labs.chi2mobile&#34;&gt;Andoid App&lt;/a&gt; on Google Playstore&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chi2beta.web.app/&#34;&gt;PWA&lt;/a&gt; (for iPhone etc.)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chi2.shinyapps.io/chi2WebInstructor/&#34;&gt;Instructor Dashboard&lt;/a&gt; (browser-based)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 </description>
     </item>

@@ -3,7 +3,7 @@ relativeURLs = false
 languageCode = "en-us"
 title = "Chi Square Labs | Learning Analytics Done Right"
 theme = "timer-hugo"
-
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
 # Site Menus
