@@ -2,31 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.chi2labs.com/categories/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chi2labs.com/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chi2labs.com/tags/learning-analytics/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chi2labs.com/tags/lms/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chi2labs.com/tags/moodle/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chi2labs.com/post/2022-10-19-moodler-1-0-1-released/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chi2labs.com/post/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chi2labs.com/categories/r/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chi2labs.com/tags/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.chi2labs.com/demos/</loc>
     <lastmod>2021-12-16T21:10:14-05:00</lastmod>
   </url><url>
-    <loc>https://www.chi2labs.com/categories/</loc>
-    <lastmod>2020-06-01T18:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.chi2labs.com/</loc>
-    <lastmod>2020-06-01T18:13:14-05:00</lastmod>
-  </url><url>
     <loc>https://www.chi2labs.com/tags/ethics/</loc>
-    <lastmod>2020-06-01T18:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.chi2labs.com/tags/learning-analytics/</loc>
-    <lastmod>2020-06-01T18:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.chi2labs.com/categories/r/</loc>
     <lastmod>2020-06-01T18:13:14-05:00</lastmod>
   </url><url>
     <loc>https://www.chi2labs.com/tags/research/</loc>
     <lastmod>2020-06-01T18:13:14-05:00</lastmod>
   </url><url>
     <loc>https://www.chi2labs.com/blog/ethical_obligation/</loc>
-    <lastmod>2020-06-01T18:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://www.chi2labs.com/tags/</loc>
     <lastmod>2020-06-01T18:13:14-05:00</lastmod>
   </url><url>
     <loc>https://www.chi2labs.com/tags/amazon-cognito/</loc>

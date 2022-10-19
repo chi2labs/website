@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Chi Square Labs | Learning Analytics Done Right</title>
+    <link>https://www.chi2labs.com/post/</link>
+      <atom:link href="https://www.chi2labs.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>MoodleR 1.0.1 Released</title>
+      <link>https://www.chi2labs.com/post/2022-10-19-moodler-1-0-1-released/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.chi2labs.com/post/2022-10-19-moodler-1-0-1-released/</guid>
+      <description>&lt;p&gt;Version 1.0.1 of our MoodleR package is now available on CRAN.
+This is a minor update, the package has been updated with HTML 5 documentation. Checks have also been performed on the latest versions of R.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
